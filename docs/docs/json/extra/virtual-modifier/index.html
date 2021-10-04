@@ -18,7 +18,13 @@
 <link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
 
 <title>Virtual modifier | Karabiner-Elements</title>
-<meta name="description" content="A powerful and stable keyboard customizer for macOS."><meta property="og:title" content="Virtual modifier" />
+
+
+  
+  <meta name="description" content="Karabiner-Elements does not provide virtual modifiers, however you can make your own flag similar to virtual modifier using variables.
+Example
+The …">
+<meta property="og:title" content="Virtual modifier" />
 <meta property="og:description" content="Karabiner-Elements does not provide virtual modifiers, however you can make your own flag similar to virtual modifier using variables.
 Example The following json change keypad_1 to virtual modifier.
  Change keypad_1 to virtual modifier (my_modifier_1). Change keypad_1 &#43; a to mission_control. Change keypad_1 &#43; s to launchpad.  [ { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;keypad_1&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: [], &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [ { &#34;set_variable&#34;: { &#34;name&#34;: &#34;my_modifier_1&#34;, &#34;value&#34;: 1 } } ], &#34;to_after_key_up&#34;: [ { &#34;set_variable&#34;: { &#34;name&#34;: &#34;my_modifier_1&#34;, &#34;value&#34;: 0 } } ] }, { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;a&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: [], &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [ { &#34;key_code&#34;: &#34;mission_control&#34; } ], &#34;conditions&#34;: [ { &#34;type&#34;: &#34;variable_if&#34;, &#34;name&#34;: &#34;my_modifier_1&#34;, &#34;value&#34;: 1 } ] }, { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;s&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: [], &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [ { &#34;key_code&#34;: &#34;launchpad&#34; } ], &#34;conditions&#34;: [ { &#34;type&#34;: &#34;variable_if&#34;, &#34;name&#34;: &#34;my_modifier_1&#34;, &#34;value&#34;: 1 } ] } ] " />
@@ -106,18 +112,14 @@ if (!doNotTrack) {
 			
 		</ul>
 	</div>
-	<div class="navbar-nav d-none d-lg-block">
-
-
-
-<input
+	<div class="navbar-nav d-none d-lg-block"><input
   type="search"
   class="form-control td-search-input"
   placeholder="&#xf002; Search this site…"
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.dff3b51607ca21e062c853d251783d5b.json"
+  data-offline-search-index-json-src="/offline-search-index.943ed1ccbf9974f29d8a3448f977b04a.json"
   data-offline-search-base-href="/"
   data-offline-search-max-results="25"
 >
@@ -133,18 +135,14 @@ if (!doNotTrack) {
             
 <div id="td-sidebar-menu" class="td-sidebar__inner">
   <form class="td-sidebar__search d-flex align-items-center">
-    
-
-
-
-<input
+    <input
   type="search"
   class="form-control td-search-input"
   placeholder="&#xf002; Search this site…"
   aria-label="Search this site…"
   autocomplete="off"
   
-  data-offline-search-index-json-src="/offline-search-index.dff3b51607ca21e062c853d251783d5b.json"
+  data-offline-search-index-json-src="/offline-search-index.943ed1ccbf9974f29d8a3448f977b04a.json"
   data-offline-search-base-href="/"
   data-offline-search-max-results="25"
 >
@@ -850,8 +848,13 @@ if (!doNotTrack) {
 
 
 
+<script src='/js/tabpane-persist.js'></script>
+
+
+
 
  
+
 
 
 
