@@ -17,29 +17,33 @@
 <link rel="icon" type="image/png" href="/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="/favicons/android-192x192.png" sizes="192x192">
 
-<title>MultitouchExtension | Karabiner-Elements</title>
-<meta name="description" content="Karabiner-MultitouchExtension allows you to change keys only when your finger is on the trackpad.
-Note Karabiner-MultitouchExtension is available since Karabiner-Elements 12.6.9 Related Complex Modifications examples Multitouch Vi Mode Multitouch Diamond Cursor Multitouch Mouse Buttons ThumbSense MultitouchExtension usage Open MultitouchExtension app from Karabiner-Elements Settings &gt; Misc. Enable &ldquo;Start at login&rdquo; on MultitouchExtension Preferences. Adjust the effective area of the trackpad. Tip If you hid Karabiner-MultitouchExtension icon in Dock, press &ldquo;Open MultitouchExtension app&rdquo; button on Preferences &gt; Misc to open Karabiner-MultitouchExtension Preferences. How to integrate MultitouchExtension to your complex modifications See karabiner.json reference manual">
-<meta property="og:url" content="/docs/manual/misc/multitouch-extension/">
+<title>Details on changing to function keys | Karabiner-Elements</title>
+<meta name="description" content="To send F1-F12 function keys to an application using Karabiner-Elements, there is a bit of a trick. This is because if you simply send an F1 key using Simple Modifications or Complex Modifications, it will be interpreted as media controls (e.g., display_brightness_decrement) by subsequent Function Keys Modifications or the macOS driver.
+Therefore, if you want to send F1-F12 keys to an application, you need to send fn&#43;F1-F12 instead.
+For example, the following Complex Modifications sends fn&#43;F2 (cell editing) to Excel with command&#43;e.">
+<meta property="og:url" content="/docs/help/how-to/function-keys/">
   <meta property="og:site_name" content="Karabiner-Elements">
-  <meta property="og:title" content="MultitouchExtension">
-  <meta property="og:description" content="Karabiner-MultitouchExtension allows you to change keys only when your finger is on the trackpad.
-Note Karabiner-MultitouchExtension is available since Karabiner-Elements 12.6.9 Related Complex Modifications examples Multitouch Vi Mode Multitouch Diamond Cursor Multitouch Mouse Buttons ThumbSense MultitouchExtension usage Open MultitouchExtension app from Karabiner-Elements Settings &gt; Misc. Enable “Start at login” on MultitouchExtension Preferences. Adjust the effective area of the trackpad. Tip If you hid Karabiner-MultitouchExtension icon in Dock, press “Open MultitouchExtension app” button on Preferences &gt; Misc to open Karabiner-MultitouchExtension Preferences. How to integrate MultitouchExtension to your complex modifications See karabiner.json reference manual">
+  <meta property="og:title" content="Details on changing to function keys">
+  <meta property="og:description" content="To send F1-F12 function keys to an application using Karabiner-Elements, there is a bit of a trick. This is because if you simply send an F1 key using Simple Modifications or Complex Modifications, it will be interpreted as media controls (e.g., display_brightness_decrement) by subsequent Function Keys Modifications or the macOS driver.
+Therefore, if you want to send F1-F12 keys to an application, you need to send fn&#43;F1-F12 instead.
+For example, the following Complex Modifications sends fn&#43;F2 (cell editing) to Excel with command&#43;e.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
     <meta property="og:image" content="https://karabiner-elements.pqrs.org/images/logo.png">
 
-  <meta itemprop="name" content="MultitouchExtension">
-  <meta itemprop="description" content="Karabiner-MultitouchExtension allows you to change keys only when your finger is on the trackpad.
-Note Karabiner-MultitouchExtension is available since Karabiner-Elements 12.6.9 Related Complex Modifications examples Multitouch Vi Mode Multitouch Diamond Cursor Multitouch Mouse Buttons ThumbSense MultitouchExtension usage Open MultitouchExtension app from Karabiner-Elements Settings &gt; Misc. Enable “Start at login” on MultitouchExtension Preferences. Adjust the effective area of the trackpad. Tip If you hid Karabiner-MultitouchExtension icon in Dock, press “Open MultitouchExtension app” button on Preferences &gt; Misc to open Karabiner-MultitouchExtension Preferences. How to integrate MultitouchExtension to your complex modifications See karabiner.json reference manual">
-  <meta itemprop="wordCount" content="92">
+  <meta itemprop="name" content="Details on changing to function keys">
+  <meta itemprop="description" content="To send F1-F12 function keys to an application using Karabiner-Elements, there is a bit of a trick. This is because if you simply send an F1 key using Simple Modifications or Complex Modifications, it will be interpreted as media controls (e.g., display_brightness_decrement) by subsequent Function Keys Modifications or the macOS driver.
+Therefore, if you want to send F1-F12 keys to an application, you need to send fn&#43;F1-F12 instead.
+For example, the following Complex Modifications sends fn&#43;F2 (cell editing) to Excel with command&#43;e.">
+  <meta itemprop="wordCount" content="266">
   <meta itemprop="image" content="https://karabiner-elements.pqrs.org/images/logo.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://karabiner-elements.pqrs.org/images/logo.png">
-  <meta name="twitter:title" content="MultitouchExtension">
-  <meta name="twitter:description" content="Karabiner-MultitouchExtension allows you to change keys only when your finger is on the trackpad.
-Note Karabiner-MultitouchExtension is available since Karabiner-Elements 12.6.9 Related Complex Modifications examples Multitouch Vi Mode Multitouch Diamond Cursor Multitouch Mouse Buttons ThumbSense MultitouchExtension usage Open MultitouchExtension app from Karabiner-Elements Settings &gt; Misc. Enable “Start at login” on MultitouchExtension Preferences. Adjust the effective area of the trackpad. Tip If you hid Karabiner-MultitouchExtension icon in Dock, press “Open MultitouchExtension app” button on Preferences &gt; Misc to open Karabiner-MultitouchExtension Preferences. How to integrate MultitouchExtension to your complex modifications See karabiner.json reference manual">
+  <meta name="twitter:title" content="Details on changing to function keys">
+  <meta name="twitter:description" content="To send F1-F12 function keys to an application using Karabiner-Elements, there is a bit of a trick. This is because if you simply send an F1 key using Simple Modifications or Complex Modifications, it will be interpreted as media controls (e.g., display_brightness_decrement) by subsequent Function Keys Modifications or the macOS driver.
+Therefore, if you want to send F1-F12 keys to an application, you need to send fn&#43;F1-F12 instead.
+For example, the following Complex Modifications sends fn&#43;F2 (cell editing) to Excel with command&#43;e.">
 
 
 
@@ -131,8 +135,8 @@ Note Karabiner-MultitouchExtension is available since Karabiner-Elements 12.6.9 
   
 </li>
   </ul>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-docsmanual-li">
-  <input type="checkbox" id="m-docsmanual-check" checked/>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-docsmanual-li">
+  <input type="checkbox" id="m-docsmanual-check"/>
   <label for="m-docsmanual-check"><a href="/docs/manual/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-docsmanual"><span class="">Manual</span></a></label>
   
   <ul class="ul-2 foldable">
@@ -214,8 +218,8 @@ Note Karabiner-MultitouchExtension is available since Karabiner-Elements 12.6.9 
   
 </li>
   </ul>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-docsmanualmisc-li">
-  <input type="checkbox" id="m-docsmanualmisc-check" checked/>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-docsmanualmisc-li">
+  <input type="checkbox" id="m-docsmanualmisc-check"/>
   <label for="m-docsmanualmisc-check"><a href="/docs/manual/misc/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-docsmanualmisc"><span class="">Misc</span></a></label>
   
   <ul class="ul-3 foldable">
@@ -235,9 +239,9 @@ Note Karabiner-MultitouchExtension is available since Karabiner-Elements 12.6.9 
   <input type="checkbox" id="m-docsmanualmiscevent-modification-chaining-check"/>
   <label for="m-docsmanualmiscevent-modification-chaining-check"><a href="/docs/manual/misc/event-modification-chaining/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docsmanualmiscevent-modification-chaining"><span class="">Input event modification chaining</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-docsmanualmiscmultitouch-extension-li">
-  <input type="checkbox" id="m-docsmanualmiscmultitouch-extension-check" checked/>
-  <label for="m-docsmanualmiscmultitouch-extension-check"><a href="/docs/manual/misc/multitouch-extension/" class="align-left ps-0  active td-sidebar-link td-sidebar-link__page" id="m-docsmanualmiscmultitouch-extension"><span class="td-sidebar-nav-active-item">MultitouchExtension</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsmanualmiscmultitouch-extension-li">
+  <input type="checkbox" id="m-docsmanualmiscmultitouch-extension-check"/>
+  <label for="m-docsmanualmiscmultitouch-extension-check"><a href="/docs/manual/misc/multitouch-extension/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docsmanualmiscmultitouch-extension"><span class="">MultitouchExtension</span></a></label>
   
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsmanualmisccommand-line-interface-li">
   <input type="checkbox" id="m-docsmanualmisccommand-line-interface-check"/>
@@ -259,8 +263,8 @@ Note Karabiner-MultitouchExtension is available since Karabiner-Elements 12.6.9 
   </ul>
 </li>
   </ul>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-docshelp-li">
-  <input type="checkbox" id="m-docshelp-check"/>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-docshelp-li">
+  <input type="checkbox" id="m-docshelp-check" checked/>
   <label for="m-docshelp-check"><a href="/docs/help/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-docshelp"><span class="">Help</span></a></label>
   
   <ul class="ul-2 foldable">
@@ -331,8 +335,8 @@ Note Karabiner-MultitouchExtension is available since Karabiner-Elements 12.6.9 
   
 </li>
   </ul>
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id="m-docshelphow-to-li">
-  <input type="checkbox" id="m-docshelphow-to-check"/>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id="m-docshelphow-to-li">
+  <input type="checkbox" id="m-docshelphow-to-check" checked/>
   <label for="m-docshelphow-to-check"><a href="/docs/help/how-to/" class="align-left ps-0  td-sidebar-link td-sidebar-link__section" id="m-docshelphow-to"><span class="">How to</span></a></label>
   
   <ul class="ul-3 foldable">
@@ -360,9 +364,9 @@ Note Karabiner-MultitouchExtension is available since Karabiner-Elements 12.6.9 
   <input type="checkbox" id="m-docshelphow-touse-before-logging-in-check"/>
   <label for="m-docshelphow-touse-before-logging-in-check"><a href="/docs/help/how-to/use-before-logging-in/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docshelphow-touse-before-logging-in"><span class="">How to use Karabiner-Elements on the password entry screen before logging in</span></a></label>
   
-</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docshelphow-tofunction-keys-li">
-  <input type="checkbox" id="m-docshelphow-tofunction-keys-check"/>
-  <label for="m-docshelphow-tofunction-keys-check"><a href="/docs/help/how-to/function-keys/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docshelphow-tofunction-keys"><span class="">Details on changing to function keys</span></a></label>
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id="m-docshelphow-tofunction-keys-li">
+  <input type="checkbox" id="m-docshelphow-tofunction-keys-check" checked/>
+  <label for="m-docshelphow-tofunction-keys-check"><a href="/docs/help/how-to/function-keys/" class="align-left ps-0  active td-sidebar-link td-sidebar-link__page" id="m-docshelphow-tofunction-keys"><span class="td-sidebar-nav-active-item">Details on changing to function keys</span></a></label>
   
 </li>
   </ul>
@@ -628,13 +632,7 @@ Note Karabiner-MultitouchExtension is available since Karabiner-Elements 12.6.9 
 
 <nav id="TableOfContents">
   <ul>
-    <li>
-      <ul>
-        <li><a href="#related-complex-modifications-examples">Related Complex Modifications examples</a></li>
-        <li><a href="#multitouchextension-usage">MultitouchExtension usage</a></li>
-        <li><a href="#how-to-integrate-multitouchextension-to-your-complex-modifications">How to integrate MultitouchExtension to your complex modifications</a></li>
-      </ul>
-    </li>
+    <li><a href="#more-user-friendly-configuration">More user-friendly configuration</a></li>
   </ul>
 </nav>
 
@@ -652,80 +650,123 @@ Note Karabiner-MultitouchExtension is available since Karabiner-Elements 12.6.9 
   <li class="breadcrumb-item">
     <a href="/docs/">Documentation</a></li>
   <li class="breadcrumb-item">
-    <a href="/docs/manual/">Manual</a></li>
+    <a href="/docs/help/">Help</a></li>
   <li class="breadcrumb-item">
-    <a href="/docs/manual/misc/">Misc</a></li>
+    <a href="/docs/help/how-to/">How to</a></li>
   <li class="breadcrumb-item active" aria-current="page">
-    MultitouchExtension</li>
+    Details on changing to function keys</li>
   </ol>
 </nav>
             
 <div class="td-content">
-	<h1>MultitouchExtension</h1>
+	<h1>Details on changing to function keys</h1>
 	
 	<header class="article-meta">
 		
 </header>
-	<p>Karabiner-MultitouchExtension allows you to change keys only when your finger is on the trackpad.</p>
+	<p>To send F1-F12 function keys to an application using Karabiner-Elements, there is a bit of a trick.
+This is because if you simply send an F1 key using Simple Modifications or Complex Modifications,
+it will be interpreted as media controls (e.g., display_brightness_decrement) by subsequent Function Keys Modifications or the macOS driver.</p>
+<p>Therefore, if you want to send F1-F12 keys to an application, you need to send <kbd>fn+F1-F12</kbd> instead.</p>
+<p>For example, the following Complex Modifications sends <kbd>fn+F2</kbd> (cell editing) to Excel with <kbd>command+e</kbd>.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#204a87;font-weight:bold">&#34;description&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;Excel example&#34;</span><span style="color:#000;font-weight:bold">,</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#204a87;font-weight:bold">&#34;manipulators&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">[</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#204a87;font-weight:bold">&#34;type&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;basic&#34;</span><span style="color:#000;font-weight:bold">,</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#204a87;font-weight:bold">&#34;from&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#204a87;font-weight:bold">&#34;key_code&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;e&#34;</span><span style="color:#000;font-weight:bold">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#204a87;font-weight:bold">&#34;modifiers&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#204a87;font-weight:bold">&#34;mandatory&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#4e9a06">&#34;command&#34;</span><span style="color:#000;font-weight:bold">],</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#204a87;font-weight:bold">&#34;optional&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#4e9a06">&#34;caps_lock&#34;</span><span style="color:#000;font-weight:bold">]</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">},</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#204a87;font-weight:bold">&#34;to&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">[</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#204a87;font-weight:bold">&#34;key_code&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;f2&#34;</span><span style="color:#000;font-weight:bold">,</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#204a87;font-weight:bold">&#34;modifiers&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#4e9a06">&#34;fn&#34;</span><span style="color:#000;font-weight:bold">]</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">],</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#204a87;font-weight:bold">&#34;conditions&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">[</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#204a87;font-weight:bold">&#34;bundle_identifiers&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#4e9a06">&#34;^com\\.microsoft\\.Excel$&#34;</span><span style="color:#000;font-weight:bold">],</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#204a87;font-weight:bold">&#34;type&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;frontmost_application_if&#34;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">]</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">]</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
+</span></span></code></pre></div><h2 id="more-user-friendly-configuration">More user-friendly configuration</h2>
+<p>The above configuration works well only when &ldquo;Use F1, F2, etc. keys as standard function keys&rdquo; is disabled in System Settings.
+If you want it to work in both cases, use <code>variable_if</code> and <code>variable_unless</code> to handle the conditions as shown below.</p>
 
 
 <div class="alert alert-primary" role="alert">
-<h4 class="alert-heading">Note</h4>
+<h4 class="alert-heading">Notes</h4>
 
-    Karabiner-MultitouchExtension is available since Karabiner-Elements 12.6.9
-
-</div>
-
-<h3 id="related-complex-modifications-examples">Related Complex Modifications examples</h3>
-<ul>
-<li><a href="https://ke-complex-modifications.pqrs.org/#multitouch_vi_mode">Multitouch Vi Mode</a></li>
-<li><a href="https://ke-complex-modifications.pqrs.org/#multitouch_diamond_cursor">Multitouch Diamond Cursor</a></li>
-<li><a href="https://ke-complex-modifications.pqrs.org/#multitouch_mouse_buttons">Multitouch Mouse Buttons</a></li>
-<li><a href="https://ke-complex-modifications.pqrs.org/#thumbsense">ThumbSense</a></li>
-</ul>
-<h3 id="multitouchextension-usage">MultitouchExtension usage</h3>
-<ol>
-<li>Open MultitouchExtension app from Karabiner-Elements Settings &gt; Misc.
-<figure>
-      <img
-        src="/docs/manual/misc/multitouch-extension/images/multitouch-extension-1@2x.png"
-        alt="multitouch-extension-1@2x.png"
-        style="width: 1100px"
-      />
-    </figure>
-</li>
-<li>Enable &ldquo;Start at login&rdquo; on MultitouchExtension Preferences.
-<figure>
-      <img
-        src="/docs/manual/misc/multitouch-extension/images/multitouch-extension-2@2x.png"
-        alt="multitouch-extension-2@2x.png"
-        style="width: 900px"
-      />
-    </figure>
-</li>
-<li>Adjust the effective area of the trackpad.
-<figure>
-      <img
-        src="/docs/manual/misc/multitouch-extension/images/multitouch-extension-3@2x.png"
-        alt="multitouch-extension-3@2x.png"
-        style="width: 900px"
-      />
-    </figure>
-</li>
-</ol>
-
-
-<div class="alert alert-primary" role="alert">
-<h4 class="alert-heading">Tip</h4>
-
-    If you hid Karabiner-MultitouchExtension icon in Dock,
-press &ldquo;Open MultitouchExtension app&rdquo; button on Preferences &gt; Misc to open Karabiner-MultitouchExtension Preferences.
+    <code>system.use_fkeys_as_standard_function_keys</code> is available since Karabiner-Elements 15.2.3.
 
 </div>
 
-<h3 id="how-to-integrate-multitouchextension-to-your-complex-modifications">How to integrate MultitouchExtension to your complex modifications</h3>
-<p>See <a href="../../../json/extra/multitouch-extension/">karabiner.json reference manual</a></p>
-
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#204a87;font-weight:bold">&#34;description&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;Excel example 2&#34;</span><span style="color:#000;font-weight:bold">,</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#204a87;font-weight:bold">&#34;manipulators&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">[</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#204a87;font-weight:bold">&#34;type&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;basic&#34;</span><span style="color:#000;font-weight:bold">,</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#204a87;font-weight:bold">&#34;from&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#204a87;font-weight:bold">&#34;key_code&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;e&#34;</span><span style="color:#000;font-weight:bold">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#204a87;font-weight:bold">&#34;modifiers&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#204a87;font-weight:bold">&#34;mandatory&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#4e9a06">&#34;command&#34;</span><span style="color:#000;font-weight:bold">],</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#204a87;font-weight:bold">&#34;optional&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#4e9a06">&#34;caps_lock&#34;</span><span style="color:#000;font-weight:bold">]</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">},</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#204a87;font-weight:bold">&#34;to&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">[</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#204a87;font-weight:bold">&#34;key_code&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;f2&#34;</span><span style="color:#000;font-weight:bold">,</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#204a87;font-weight:bold">&#34;modifiers&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#4e9a06">&#34;fn&#34;</span><span style="color:#000;font-weight:bold">]</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">],</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#204a87;font-weight:bold">&#34;conditions&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">[</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#204a87;font-weight:bold">&#34;type&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;frontmost_application_if&#34;</span><span style="color:#000;font-weight:bold">,</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#204a87;font-weight:bold">&#34;bundle_identifiers&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#4e9a06">&#34;^com\\.microsoft\\.Excel$&#34;</span><span style="color:#000;font-weight:bold">]</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">},</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#204a87;font-weight:bold">&#34;type&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;variable_unless&#34;</span><span style="color:#000;font-weight:bold">,</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#204a87;font-weight:bold">&#34;name&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;system.use_fkeys_as_standard_function_keys&#34;</span><span style="color:#000;font-weight:bold">,</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#204a87;font-weight:bold">&#34;value&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#204a87;font-weight:bold">true</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">]</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">},</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#204a87;font-weight:bold">&#34;type&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;basic&#34;</span><span style="color:#000;font-weight:bold">,</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#204a87;font-weight:bold">&#34;from&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#204a87;font-weight:bold">&#34;key_code&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;e&#34;</span><span style="color:#000;font-weight:bold">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#204a87;font-weight:bold">&#34;modifiers&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#204a87;font-weight:bold">&#34;mandatory&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#4e9a06">&#34;command&#34;</span><span style="color:#000;font-weight:bold">],</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#204a87;font-weight:bold">&#34;optional&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#4e9a06">&#34;caps_lock&#34;</span><span style="color:#000;font-weight:bold">]</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">},</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#204a87;font-weight:bold">&#34;to&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">[</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#204a87;font-weight:bold">&#34;key_code&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;f2&#34;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">],</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#204a87;font-weight:bold">&#34;conditions&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">[</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#204a87;font-weight:bold">&#34;type&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;frontmost_application_if&#34;</span><span style="color:#000;font-weight:bold">,</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#204a87;font-weight:bold">&#34;bundle_identifiers&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#4e9a06">&#34;^com\\.microsoft\\.Excel$&#34;</span><span style="color:#000;font-weight:bold">]</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">},</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#204a87;font-weight:bold">&#34;type&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;variable_if&#34;</span><span style="color:#000;font-weight:bold">,</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#204a87;font-weight:bold">&#34;name&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;system.use_fkeys_as_standard_function_keys&#34;</span><span style="color:#000;font-weight:bold">,</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#204a87;font-weight:bold">&#34;value&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#204a87;font-weight:bold">true</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">]</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">]</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
+</span></span></code></pre></div>
 	
 </div>
 
