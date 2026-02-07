@@ -72,7 +72,7 @@ sudo diskutil enableOwnership disk99999s99999 (Replace disk99999s99999 with your
     aria-label="Search this site…"
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.d2e9ad0baa92c3b1db53d4e3c46e7528.json"
+    data-offline-search-index-json-src="/offline-search-index.582d85d84bef3a17c391bf8d6ef41e48.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="25"
   >
@@ -96,7 +96,7 @@ sudo diskutil enableOwnership disk99999s99999 (Replace disk99999s99999 with your
     aria-label="Search this site…"
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.d2e9ad0baa92c3b1db53d4e3c46e7528.json"
+    data-offline-search-index-json-src="/offline-search-index.582d85d84bef3a17c391bf8d6ef41e48.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="25"
   >
@@ -149,6 +149,10 @@ sudo diskutil enableOwnership disk99999s99999 (Replace disk99999s99999 with your
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsmanualconfigurationedit-complex-modifications-li">
   <input type="checkbox" id="m-docsmanualconfigurationedit-complex-modifications-check"/>
   <label for="m-docsmanualconfigurationedit-complex-modifications-check"><a href="/docs/manual/configuration/edit-complex-modifications/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docsmanualconfigurationedit-complex-modifications"><span class="">Edit complex modifications</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsmanualconfigurationadd-your-own-complex-modifications-js-li">
+  <input type="checkbox" id="m-docsmanualconfigurationadd-your-own-complex-modifications-js-check"/>
+  <label for="m-docsmanualconfigurationadd-your-own-complex-modifications-js-check"><a href="/docs/manual/configuration/add-your-own-complex-modifications-js/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docsmanualconfigurationadd-your-own-complex-modifications-js"><span class="">Add your own complex modifications (using JavaScript)</span></a></label>
   
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsmanualconfigurationconfigure-devices-li">
   <input type="checkbox" id="m-docsmanualconfigurationconfigure-devices-check"/>
@@ -688,10 +692,10 @@ sudo diskutil enableOwnership disk99999s99999 (Replace disk99999s99999 with your
 		
 </header>
 	<p>If the following error message is appeared in log, your home directory owner ship is not valid.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>[warning] [core_service] /Users/.../karabiner.json is not owned by a valid user.
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>[warning] [core_service] /Users/.../karabiner.json is not owned by a valid user.
 </span></span></code></pre></div><p>The cause is that you are using an external storage and locating your home directory into the volume.</p>
 <p>You have to enable ownership on the external volume by the following command in Terminal.app.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo diskutil enableOwnership disk99999s99999
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo diskutil enableOwnership disk99999s99999
 </span></span></code></pre></div><p>(Replace <code>disk99999s99999</code> with your disk identifier which you can find by <code>diskutil list</code> command.)</p>
 
 	

@@ -64,7 +64,7 @@ This guide provides instructions on how to add support for unsupported keys in K
     aria-label="Search this site…"
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.d2e9ad0baa92c3b1db53d4e3c46e7528.json"
+    data-offline-search-index-json-src="/offline-search-index.582d85d84bef3a17c391bf8d6ef41e48.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="25"
   >
@@ -88,7 +88,7 @@ This guide provides instructions on how to add support for unsupported keys in K
     aria-label="Search this site…"
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.d2e9ad0baa92c3b1db53d4e3c46e7528.json"
+    data-offline-search-index-json-src="/offline-search-index.582d85d84bef3a17c391bf8d6ef41e48.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="25"
   >
@@ -141,6 +141,10 @@ This guide provides instructions on how to add support for unsupported keys in K
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsmanualconfigurationedit-complex-modifications-li">
   <input type="checkbox" id="m-docsmanualconfigurationedit-complex-modifications-check"/>
   <label for="m-docsmanualconfigurationedit-complex-modifications-check"><a href="/docs/manual/configuration/edit-complex-modifications/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docsmanualconfigurationedit-complex-modifications"><span class="">Edit complex modifications</span></a></label>
+  
+</li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsmanualconfigurationadd-your-own-complex-modifications-js-li">
+  <input type="checkbox" id="m-docsmanualconfigurationadd-your-own-complex-modifications-js-check"/>
+  <label for="m-docsmanualconfigurationadd-your-own-complex-modifications-js-check"><a href="/docs/manual/configuration/add-your-own-complex-modifications-js/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docsmanualconfigurationadd-your-own-complex-modifications-js"><span class="">Add your own complex modifications (using JavaScript)</span></a></label>
   
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docsmanualconfigurationconfigure-devices-li">
   <input type="checkbox" id="m-docsmanualconfigurationconfigure-devices-check"/>
@@ -760,10 +764,10 @@ In the same way, you can add the key codes you want to include.</p>
 <p>Finally, build Karabiner-Core-Service, Settings and EventViewer by following the steps below.
 With this, you will now be able to modify the new keys in Karabiner-Elements.</p>
 <h3 id="build-karabiner-core-service">Build Karabiner-Core-Service</h3>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#204a87">cd</span> src/core/CoreService
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#204a87">cd</span> src/core/CoreService
 </span></span><span style="display:flex;"><span>make
 </span></span></code></pre></div><p>Then upgrade the installed file.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>make install
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>make install
 </span></span></code></pre></div>
 
 <div class="alert alert-primary" role="alert">
@@ -776,15 +780,15 @@ With this, you will now be able to modify the new keys in Karabiner-Elements.</p
 </div>
 
 <h3 id="build-settings">Build Settings</h3>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#204a87">cd</span> src/apps/SettingsWindow
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#204a87">cd</span> src/apps/SettingsWindow
 </span></span><span style="display:flex;"><span>make
 </span></span></code></pre></div><p>Execute the updated Settings:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>make run
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>make run
 </span></span></code></pre></div><h3 id="build-eventviewer">Build EventViewer</h3>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#204a87">cd</span> src/apps/EventViewer
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#204a87">cd</span> src/apps/EventViewer
 </span></span><span style="display:flex;"><span>make
 </span></span></code></pre></div><p>Execute the updated EventViewer:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>make run
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>make run
 </span></span></code></pre></div>
 
 <div class="alert alert-primary" role="alert">
