@@ -9,28 +9,32 @@
 <link rel="apple-touch-icon" href="/favicons/apple-touch-icon-180x180.png" sizes="180x180">
 
 <title>Guide for supporting unsupported keys | Karabiner-Elements</title>
-<meta name="description" content="Karabiner-Elements supports most keys, including those found only on PC keyboards. However, it may not support certain special function keys, such as some keys in the Consumer Page’s Generic GUI Application Controls. This is because Karabiner-Elements manages a whitelist of verified keys, and any unverified events not included in this list are ignored.
-This guide provides instructions on how to add support for unsupported keys in Karabiner-Elements, should your keyboard have such keys.">
+<meta name="description" content="Karabiner-Elements supports most keys, including those found only on PC keyboards. However, it may not support certain special function keys, such as some keys in the Consumer Page’s Generic GUI Application Controls. Karabiner-Elements maintains a whitelist of verified keys, and unverified events that are not included in this list are ignored.
+This guide explains how to add support for unsupported keys in Karabiner-Elements.
+Investigate the key code Use Karabiner-EventViewer to inspect key codes. First, enable “Temporarily turns off all Karabiner-Elements modifications” in Karabiner-EventViewer so that raw hardware input events are shown.">
 <meta property="og:url" content="/docs/help/advanced-topics/unknown-events/">
   <meta property="og:site_name" content="Karabiner-Elements">
   <meta property="og:title" content="Guide for supporting unsupported keys">
-  <meta property="og:description" content="Karabiner-Elements supports most keys, including those found only on PC keyboards. However, it may not support certain special function keys, such as some keys in the Consumer Page’s Generic GUI Application Controls. This is because Karabiner-Elements manages a whitelist of verified keys, and any unverified events not included in this list are ignored.
-This guide provides instructions on how to add support for unsupported keys in Karabiner-Elements, should your keyboard have such keys.">
+  <meta property="og:description" content="Karabiner-Elements supports most keys, including those found only on PC keyboards. However, it may not support certain special function keys, such as some keys in the Consumer Page’s Generic GUI Application Controls. Karabiner-Elements maintains a whitelist of verified keys, and unverified events that are not included in this list are ignored.
+This guide explains how to add support for unsupported keys in Karabiner-Elements.
+Investigate the key code Use Karabiner-EventViewer to inspect key codes. First, enable “Temporarily turns off all Karabiner-Elements modifications” in Karabiner-EventViewer so that raw hardware input events are shown.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
     <meta property="og:image" content="https://karabiner-elements.pqrs.org/images/logo.png">
 
   <meta itemprop="name" content="Guide for supporting unsupported keys">
-  <meta itemprop="description" content="Karabiner-Elements supports most keys, including those found only on PC keyboards. However, it may not support certain special function keys, such as some keys in the Consumer Page’s Generic GUI Application Controls. This is because Karabiner-Elements manages a whitelist of verified keys, and any unverified events not included in this list are ignored.
-This guide provides instructions on how to add support for unsupported keys in Karabiner-Elements, should your keyboard have such keys.">
-  <meta itemprop="wordCount" content="387">
+  <meta itemprop="description" content="Karabiner-Elements supports most keys, including those found only on PC keyboards. However, it may not support certain special function keys, such as some keys in the Consumer Page’s Generic GUI Application Controls. Karabiner-Elements maintains a whitelist of verified keys, and unverified events that are not included in this list are ignored.
+This guide explains how to add support for unsupported keys in Karabiner-Elements.
+Investigate the key code Use Karabiner-EventViewer to inspect key codes. First, enable “Temporarily turns off all Karabiner-Elements modifications” in Karabiner-EventViewer so that raw hardware input events are shown.">
+  <meta itemprop="wordCount" content="281">
   <meta itemprop="image" content="https://karabiner-elements.pqrs.org/images/logo.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://karabiner-elements.pqrs.org/images/logo.png">
   <meta name="twitter:title" content="Guide for supporting unsupported keys">
-  <meta name="twitter:description" content="Karabiner-Elements supports most keys, including those found only on PC keyboards. However, it may not support certain special function keys, such as some keys in the Consumer Page’s Generic GUI Application Controls. This is because Karabiner-Elements manages a whitelist of verified keys, and any unverified events not included in this list are ignored.
-This guide provides instructions on how to add support for unsupported keys in Karabiner-Elements, should your keyboard have such keys.">
+  <meta name="twitter:description" content="Karabiner-Elements supports most keys, including those found only on PC keyboards. However, it may not support certain special function keys, such as some keys in the Consumer Page’s Generic GUI Application Controls. Karabiner-Elements maintains a whitelist of verified keys, and unverified events that are not included in this list are ignored.
+This guide explains how to add support for unsupported keys in Karabiner-Elements.
+Investigate the key code Use Karabiner-EventViewer to inspect key codes. First, enable “Temporarily turns off all Karabiner-Elements modifications” in Karabiner-EventViewer so that raw hardware input events are shown.">
 <link rel="preload" href="/scss/main.min.cf4f4d529929f2949150b6696a01a4ed498aae40bbc8ebe8257dfc7e100f7dbe.css" as="style" integrity="sha256-z09NUpkp8pSRULZpagGk7UmKrkC7yOvoJX38fhAPfb4=" crossorigin="anonymous">
 <link href="/scss/main.min.cf4f4d529929f2949150b6696a01a4ed498aae40bbc8ebe8257dfc7e100f7dbe.css" rel="stylesheet" integrity="sha256-z09NUpkp8pSRULZpagGk7UmKrkC7yOvoJX38fhAPfb4=" crossorigin="anonymous">
 <script
@@ -68,7 +72,7 @@ This guide provides instructions on how to add support for unsupported keys in K
     aria-label='Search this site…'
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.e09505bb5d4ceaed290960ab0a7c5ffc.json"
+    data-offline-search-index-json-src="/offline-search-index.4cd7167306541b834690c371afe530c5.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="25"
   >
@@ -93,7 +97,7 @@ This guide provides instructions on how to add support for unsupported keys in K
     aria-label='Search this site…'
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.e09505bb5d4ceaed290960ab0a7c5ffc.json"
+    data-offline-search-index-json-src="/offline-search-index.4cd7167306541b834690c371afe530c5.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="25"
   >
@@ -672,13 +676,8 @@ This guide provides instructions on how to add support for unsupported keys in K
     <nav id="TableOfContents">
   <ul>
     <li><a href="#investigate-the-key-code">Investigate the key code</a></li>
-    <li><a href="#add-the-keys-to-the-whitelist">Add the keys to the whitelist</a>
-      <ul>
-        <li><a href="#build-karabiner-core-service">Build Karabiner-Core-Service</a></li>
-        <li><a href="#build-settings">Build Settings</a></li>
-        <li><a href="#build-eventviewer">Build EventViewer</a></li>
-      </ul>
-    </li>
+    <li><a href="#add-the-keys-to-the-whitelist">Add the keys to the whitelist</a></li>
+    <li><a href="#build-a-package">Build a package</a></li>
     <li><a href="#create-a-pull-request-to-add-new-keys">Create a pull request to add new keys</a></li>
   </ul>
 </nav>
@@ -709,90 +708,48 @@ This guide provides instructions on how to add support for unsupported keys in K
 </header>
 	<p>Karabiner-Elements supports most keys, including those found only on PC keyboards.
 However, it may not support certain special function keys, such as some keys in the Consumer Page&rsquo;s Generic GUI Application Controls.
-This is because Karabiner-Elements manages a whitelist of verified keys, and any unverified events not included in this list are ignored.</p>
-<p>This guide provides instructions on how to add support for unsupported keys in Karabiner-Elements, should your keyboard have such keys.</p>
+Karabiner-Elements maintains a whitelist of verified keys, and unverified events that are not included in this list are ignored.</p>
+<p>This guide explains how to add support for unsupported keys in Karabiner-Elements.</p>
 <h2 id="investigate-the-key-code">Investigate the key code</h2>
-<p>First, to investigate the raw key events from your keyboard, stop Karabiner-Elements from modifying the device&rsquo;s events. This can be done from the Devices tab.</p>
+<p>Use Karabiner-EventViewer to inspect key codes.
+First, enable &ldquo;Temporarily turns off all Karabiner-Elements modifications&rdquo; in Karabiner-EventViewer so that raw hardware input events are shown.</p>
 <figure>
   <img
-    src="/docs/help/advanced-topics/unknown-events/images/devices@2x.png"
-    alt="devices@2x.png"
+    src="/docs/help/advanced-topics/unknown-events/images/original-events@2x.png"
+    alt="original-events@2x.png"
     style="width: 1100px"
   />
 </figure>
 
-<p>After that, open Karabiner-EventViewer and press the key you want to investigate.</p>
+<p>Then type the target key in the text area on the Main tab and check how it is handled.</p>
 <ul>
 <li>If the event appears in the Main tab, the key is already supported, so no further action is needed.</li>
-<li>If the event appears in the Unknown Events tab, you can enable it by following the steps below to update the whitelist and rebuild Karabiner-Elements.</li>
-<li>If the event does not show up in either tab, it means that macOS itself cannot recognize the key, so it cannot be supported.</li>
+<li>If the event appears in the Unknown Events tab, you can enable it by updating the whitelist and rebuilding Karabiner-Elements.</li>
+<li>If the event does not appear in either tab, macOS itself cannot recognize the key, so Karabiner-Elements cannot support it.</li>
 </ul>
-<table>
-  <thead>
-      <tr>
-          <th>Main tab</th>
-          <th>Unknown Events tab</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><figure>
-  <img
-    src="/docs/help/advanced-topics/unknown-events/images/eventviewer-main@2x.png"
-    alt="eventviewer-main@2x.png"
-    style="width: 1100px"
-  />
-</figure>
-</td>
-          <td><figure>
+<figure>
   <img
     src="/docs/help/advanced-topics/unknown-events/images/eventviewer-unknown@2x.png"
     alt="eventviewer-unknown@2x.png"
     style="width: 1100px"
   />
 </figure>
-</td>
-      </tr>
-  </tbody>
-</table>
+
 <h2 id="add-the-keys-to-the-whitelist">Add the keys to the whitelist</h2>
-<p>Adding to the whitelist is done by modifying the source code.
-Here is a diff for supporting Consumer Page&rsquo;s AC Zoom Out and AC Zoom In.
-In the same way, you can add the key codes you want to include.</p>
+<p>Keys are added to the whitelist by modifying the source code.
+The following diff adds support for the Consumer Page&rsquo;s AC Zoom Out and AC Zoom In usages.
+You can add other key codes in the same way.</p>
 <p><a href="https://github.com/pqrs-org/Karabiner-Elements/pull/4021/files">https://github.com/pqrs-org/Karabiner-Elements/pull/4021/files</a></p>
 <div class="alert alert-primary" role="alert"><div class="h4 alert-heading" role="heading">Note</div>
 <p>The key names follow this list:</p>
 <p><a href="https://github.com/apple-oss-distributions/IOHIDFamily/blob/main/IOHIDFamily/IOHIDUsageTables.h">https://github.com/apple-oss-distributions/IOHIDFamily/blob/main/IOHIDFamily/IOHIDUsageTables.h</a></p>
 </div>
-<p>Next, follow the steps below to set up the build environment.</p>
+<h2 id="build-a-package">Build a package</h2>
+<p>Next, follow the steps below to set up the build environment and build a package.</p>
 <p><a href="https://github.com/pqrs-org/Karabiner-Elements/blob/main/README.md#for-developers">https://github.com/pqrs-org/Karabiner-Elements/blob/main/README.md#for-developers</a></p>
-<p>Finally, build Karabiner-Core-Service, Settings and EventViewer by following the steps below.
-With this, you will now be able to modify the new keys in Karabiner-Elements.</p>
-<h3 id="build-karabiner-core-service">Build Karabiner-Core-Service</h3>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#204a87">cd</span> src/core/CoreService
-</span></span><span style="display:flex;"><span>make
-</span></span></code></pre></div><p>Then upgrade the installed file.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>make install
-</span></span></code></pre></div><div class="alert alert-primary" role="alert"><div class="h4 alert-heading" role="heading">Note</div>
-<p>Since the signature differs from the official release, you will need to delete and re-add the entry for Input Monitoring permissions.</p>
-<p><a href="https://karabiner-elements.pqrs.org/docs/manual/misc/required-macos-settings/#enable-input-monitoring">https://karabiner-elements.pqrs.org/docs/manual/misc/required-macos-settings/#enable-input-monitoring</a></p>
-</div>
-<h3 id="build-settings">Build Settings</h3>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#204a87">cd</span> src/apps/SettingsWindow
-</span></span><span style="display:flex;"><span>make
-</span></span></code></pre></div><p>Execute the updated Settings:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>make run
-</span></span></code></pre></div><h3 id="build-eventviewer">Build EventViewer</h3>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#204a87">cd</span> src/apps/EventViewer
-</span></span><span style="display:flex;"><span>make
-</span></span></code></pre></div><p>Execute the updated EventViewer:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>make run
-</span></span></code></pre></div><div class="alert alert-primary" role="alert"><div class="h4 alert-heading" role="heading">Note</div>
-<p>Since the signature differs from the official release, you will need to delete and re-add the entry for Input Monitoring permissions.</p>
-<p><a href="https://karabiner-elements.pqrs.org/docs/manual/misc/required-macos-settings/#enable-input-monitoring">https://karabiner-elements.pqrs.org/docs/manual/misc/required-macos-settings/#enable-input-monitoring</a></p>
-</div>
+<p>After building the package, install it to use the newly added keys.</p>
 <h2 id="create-a-pull-request-to-add-new-keys">Create a pull request to add new keys</h2>
-<p>Once you&rsquo;ve successfully added the new keys, we&rsquo;d greatly appreciate it if you could submit a pull request to Karabiner-Elements.</p>
+<p>Once you have successfully added the new keys, we would appreciate it if you submitted a pull request to Karabiner-Elements.</p>
 
 	
 </div>

@@ -257,7 +257,7 @@
       <link>/docs/help/advanced-topics/unknown-events/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/docs/help/advanced-topics/unknown-events/</guid>
-      <description>&lt;p&gt;Karabiner-Elements supports most keys, including those found only on PC keyboards.&#xA;However, it may not support certain special function keys, such as some keys in the Consumer Page&amp;rsquo;s Generic GUI Application Controls.&#xA;This is because Karabiner-Elements manages a whitelist of verified keys, and any unverified events not included in this list are ignored.&lt;/p&gt;&#xA;&lt;p&gt;This guide provides instructions on how to add support for unsupported keys in Karabiner-Elements, should your keyboard have such keys.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Karabiner-Elements supports most keys, including those found only on PC keyboards.&#xA;However, it may not support certain special function keys, such as some keys in the Consumer Page&amp;rsquo;s Generic GUI Application Controls.&#xA;Karabiner-Elements maintains a whitelist of verified keys, and unverified events that are not included in this list are ignored.&lt;/p&gt;&#xA;&lt;p&gt;This guide explains how to add support for unsupported keys in Karabiner-Elements.&lt;/p&gt;&#xA;&lt;h2 id=&#34;investigate-the-key-code&#34;&gt;Investigate the key code&lt;/h2&gt;&#xA;&lt;p&gt;Use Karabiner-EventViewer to inspect key codes.&#xA;First, enable &amp;ldquo;Temporarily turns off all Karabiner-Elements modifications&amp;rdquo; in Karabiner-EventViewer so that raw hardware input events are shown.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Edit complex modifications</title>
