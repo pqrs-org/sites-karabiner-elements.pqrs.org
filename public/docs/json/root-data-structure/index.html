@@ -19,13 +19,16 @@ karabiner.json { &#34;global&#34;: { &#34;check_for_updates_on_startup&#34;: tru
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
+    <meta property="article:modified_time" content="2025-05-01T22:49:17+09:00">
     <meta property="og:image" content="https://karabiner-elements.pqrs.org/images/logo.png">
-
-  <meta itemprop="name" content="karabiner.json data structure">
-  <meta itemprop="description" content="Note You can write comments in JSON using // ... or /* ... */ formats, but all comments will be lost if the settings are modified through the Menu or Settings UI.
+<meta itemprop="name" content="karabiner.json data structure">
+<meta itemprop="description" content="Note You can write comments in JSON using // ... or /* ... */ formats, but all comments will be lost if the settings are modified through the Menu or Settings UI.
 karabiner.json { &#34;global&#34;: { &#34;check_for_updates_on_startup&#34;: true, &#34;show_in_menu_bar&#34;: true, &#34;show_profile_name_in_menu_bar&#34;: false }, &#34;profiles&#34;: [ { &#34;name&#34;: &#34;Profile name&#34;, &#34;selected&#34;: true, &#34;simple_modifications&#34;: [ ... ], &#34;fn_function_keys&#34;: [ ... ], &#34;complex_modifications&#34;: { &#34;parameters&#34;: { ... }, &#34;rules&#34;: [ ... ] }, &#34;virtual_hid_keyboard&#34;: { &#34;keyboard_type&#34;: &#34;ansi&#34;, &#34;caps_lock_delay_milliseconds&#34;: 0 }, &#34;devices&#34;: [ ... ], &#34;parameters&#34;: { ... } }, { &#34;name&#34;: &#34;Profile name&#34;, &#34;selected&#34;: false, ... }, ... ] } complex_modifications in karabiner.json &gt; profiles { &#34;complex_modifications&#34;: { &#34;parameters&#34;: { ... }, &#34;rules&#34;: [ { &#34;description&#34;: &#34;This description is shown in Settings.&#34;, &#34;manipulators&#34;: [ { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: from event definition, &#34;to&#34;: [ to event definition, to event definition, ... ], &#34;to_if_alone&#34;: [ to event definition, to event definition, ... ], &#34;to_if_held_down&#34;: [ to event definition, to event definition, ... ], &#34;to_after_key_up&#34;: [ to event definition, to event definition, ... ], &#34;to_delayed_action&#34;: { &#34;to_if_invoked&#34;: [ to event definition, to event definition, ... ], &#34;to_if_canceled&#34;: [ to event definition, to event definition, ... ] }, &#34;conditions&#34;: [ condition definition, condition definition, ... ], &#34;parameters&#34;: { ... }, &#34;description&#34;: &#34;Optional description for human&#34; }, { &#34;type&#34;: &#34;basic&#34;, ... }, ... ] }, { &#34;description&#34;: &#34;...&#34;, &#34;manipulators&#34;: [ ... ] }, ... ] } } custom *.json file in ~/config/karabiner/assets/complex_modifications Note Adding a custom .json file allows for enabling and disabling rules/complex modifications through the UI.">
-  <meta itemprop="wordCount" content="378">
-  <meta itemprop="image" content="https://karabiner-elements.pqrs.org/images/logo.png">
+
+<meta itemprop="dateModified" content="2025-05-01T22:49:17&#43;09:00">
+<meta itemprop="wordCount" content="378">
+<meta itemprop="image" content="https://karabiner-elements.pqrs.org/images/logo.png">
+
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://karabiner-elements.pqrs.org/images/logo.png">
   <meta name="twitter:title" content="karabiner.json data structure">
@@ -909,7 +912,13 @@ but all comments will be lost if the settings are modified through the Menu or S
 </span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">]</span>
 </span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
 </span></span></code></pre></div>
-	
+	<div class="td-page-meta__lastmod">
+    Last modified: 2025-05-01
+      <a href="https://github.com/pqrs-org/pqrs.org/blob/main/sites/karabiner-elements/content/en/docs/json/root-data-structure/index.md?plain=1" target="_blank" rel="noopener">
+        <i class="fab fa-github ms-1"></i>
+        Markdown
+      </a>
+  </div>
 </div>
 
 
@@ -917,7 +926,7 @@ but all comments will be lost if the settings are modified through the Menu or S
         </div>
       </div>
       <footer class="bg-primary py-5 row text-center d-print-none">
-  <a class="text-white" href="https://pqrs.org" target="_blank">
+  <a class="text-white" href="https://pqrs.org" target="_blank" rel="noopener">
     pqrs.org
   </a>
 </footer>
@@ -928,7 +937,7 @@ but all comments will be lost if the settings are modified through the Menu or S
 <script src='/js/tabpane-persist.js'></script>
 
 
-<script src="/js/share/pqrs.min.487daf9297bc17e6675323faa461291a5426e7d052e14a2d3281b3b6ec16f694.js"></script>
+<script src="/js/share/pqrs.min.2f86dd911affea795fca9b054e66fdee3cdfa1338722806dc65778bfb7c1a331.js"></script>
 
   </body>
 </html>

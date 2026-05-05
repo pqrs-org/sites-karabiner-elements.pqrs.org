@@ -3,253 +3,378 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/docs/help/troubleshooting/breaking-changes/</loc>
+    <lastmod>2026-02-07T18:55:06+09:00</lastmod>
   </url><url>
     <loc>/docs/manual/misc/required-macos-settings/</loc>
+    <lastmod>2026-05-03T23:31:05+09:00</lastmod>
   </url><url>
     <loc>/docs/help/troubleshooting/driver-alert-keeps-showing-up/</loc>
+    <lastmod>2026-01-18T21:05:09+09:00</lastmod>
   </url><url>
     <loc>/docs/</loc>
+    <lastmod>2020-03-01T11:27:54+09:00</lastmod>
   </url><url>
     <loc>/docs/manual/misc/ignored-temporarily/</loc>
+    <lastmod>2026-05-03T23:31:05+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/to/software_function/cg_event_double_click/</loc>
+    <lastmod>2026-02-07T18:55:06+09:00</lastmod>
   </url><url>
     <loc>/docs/manual/configuration/configure-simple-modifications/</loc>
+    <lastmod>2025-06-29T13:13:19+09:00</lastmod>
   </url><url>
     <loc>/docs/manual/configuration/</loc>
+    <lastmod>2020-03-01T11:27:54+09:00</lastmod>
   </url><url>
     <loc>/docs/json/location/</loc>
+    <lastmod>2026-01-21T08:29:09+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/from/</loc>
+    <lastmod>2026-01-21T08:29:09+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/from/any/</loc>
+    <lastmod>2026-02-11T21:17:54+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/conditions/frontmost-application/</loc>
+    <lastmod>2026-02-07T18:55:06+09:00</lastmod>
   </url><url>
     <loc>/docs/getting-started/</loc>
+    <lastmod>2020-03-01T11:27:54+09:00</lastmod>
   </url><url>
     <loc>/docs/help/how-to/mouse-button/</loc>
+    <lastmod>2023-01-07T14:42:08+09:00</lastmod>
   </url><url>
     <loc>/docs/getting-started/installation/</loc>
+    <lastmod>2026-05-02T22:14:20+09:00</lastmod>
   </url><url>
     <loc>/docs/help/advanced-topics/installed-files/</loc>
+    <lastmod>2025-11-11T19:37:32+09:00</lastmod>
   </url><url>
     <loc>/docs/json/expert-complex-modifications-examples/letter-key-holding-modifier/</loc>
+    <lastmod>2026-02-07T22:30:58+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/other-types/mouse-basic/</loc>
+    <lastmod>2026-02-07T18:55:06+09:00</lastmod>
   </url><url>
     <loc>/docs/json/extra/multitouch-extension/</loc>
+    <lastmod>2026-01-21T08:29:09+09:00</lastmod>
   </url><url>
     <loc>/docs/manual/operation/quit/</loc>
+    <lastmod>2026-04-23T01:20:49+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/to/shell-command/</loc>
+    <lastmod>2026-02-07T18:55:06+09:00</lastmod>
   </url><url>
     <loc>/docs/help/troubleshooting/</loc>
+    <lastmod>2020-03-01T11:27:54+09:00</lastmod>
   </url><url>
     <loc>/docs/help/troubleshooting/fumihiko-takayama-in-login-items/</loc>
+    <lastmod>2026-01-21T08:29:09+09:00</lastmod>
   </url><url>
     <loc>/docs/manual/operation/restart/</loc>
+    <lastmod>2026-01-18T19:21:34+09:00</lastmod>
   </url><url>
     <loc>/docs/help/how-to/sticky-modifier-key/</loc>
+    <lastmod>2026-01-21T08:29:09+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/conditions/device/</loc>
+    <lastmod>2026-02-07T18:55:06+09:00</lastmod>
   </url><url>
     <loc>/docs/getting-started/features/</loc>
+    <lastmod>2026-01-25T10:01:40+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/from/modifiers/</loc>
+    <lastmod>2026-02-07T18:55:06+09:00</lastmod>
   </url><url>
     <loc>/docs/help/how-to/</loc>
+    <lastmod>2020-03-01T11:27:54+09:00</lastmod>
   </url><url>
     <loc>/docs/help/how-to/disable-caps-lock-delay/</loc>
+    <lastmod>2024-10-08T01:11:40+09:00</lastmod>
   </url><url>
     <loc>/docs/manual/misc/implicit-behavior/</loc>
+    <lastmod>2024-12-21T16:11:47+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/to/software_function/iokit_power_management_sleep_system/</loc>
+    <lastmod>2026-02-07T18:55:06+09:00</lastmod>
   </url><url>
     <loc>/docs/help/troubleshooting/stopped-working-after-macos-update/</loc>
+    <lastmod>2020-03-01T11:27:54+09:00</lastmod>
   </url><url>
     <loc>/docs/json/expert-complex-modifications-examples/letter-key-release-order-modifier/</loc>
+    <lastmod>2026-02-07T22:30:58+09:00</lastmod>
   </url><url>
     <loc>/docs/manual/</loc>
+    <lastmod>2020-03-01T11:27:54+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/other-types/mouse-motion-to-scroll/</loc>
+    <lastmod>2026-02-07T18:55:06+09:00</lastmod>
   </url><url>
     <loc>/docs/manual/operation/</loc>
+    <lastmod>2020-03-01T11:27:54+09:00</lastmod>
   </url><url>
     <loc>/docs/help/advanced-topics/security/</loc>
+    <lastmod>2026-05-04T16:26:38+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/to/</loc>
+    <lastmod>2026-02-11T20:01:57+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/to/select-input-source/</loc>
+    <lastmod>2026-02-07T18:55:06+09:00</lastmod>
   </url><url>
     <loc>/docs/json/typical-complex-modifications-examples/</loc>
+    <lastmod>2026-05-03T14:49:27+09:00</lastmod>
   </url><url>
     <loc>/docs/manual/operation/uninstall/</loc>
+    <lastmod>2026-01-21T08:29:09+09:00</lastmod>
   </url><url>
     <loc>/docs/manual/configuration/configure-complex-modifications/</loc>
+    <lastmod>2026-01-21T08:29:09+09:00</lastmod>
   </url><url>
     <loc>/docs/json/extra/virtual-modifier/</loc>
+    <lastmod>2026-01-21T08:29:09+09:00</lastmod>
   </url><url>
     <loc>/docs/help/advanced-topics/set-environment-variables/</loc>
+    <lastmod>2026-05-03T14:49:27+09:00</lastmod>
   </url><url>
     <loc>/docs/manual/configuration/add-your-own-complex-modifications/</loc>
+    <lastmod>2026-01-21T08:29:09+09:00</lastmod>
   </url><url>
     <loc>/docs/help/advanced-topics/unknown-events/</loc>
+    <lastmod>2026-05-05T11:06:58+09:00</lastmod>
   </url><url>
     <loc>/docs/manual/configuration/edit-complex-modifications/</loc>
+    <lastmod>2026-01-21T08:29:09+09:00</lastmod>
   </url><url>
     <loc>/docs/json/expert-complex-modifications-examples/</loc>
+    <lastmod>2026-01-25T00:27:44+09:00</lastmod>
   </url><url>
     <loc>/docs/manual/configuration/add-your-own-complex-modifications-js/</loc>
+    <lastmod>2026-05-03T14:49:27+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/from/integer-value/</loc>
+    <lastmod>2026-05-03T14:49:27+09:00</lastmod>
   </url><url>
     <loc>/docs/help/advanced-topics/</loc>
+    <lastmod>2020-03-01T11:27:54+09:00</lastmod>
   </url><url>
     <loc>/docs/manual/operation/check-for-updates/</loc>
+    <lastmod>2025-11-03T23:53:25+09:00</lastmod>
   </url><url>
     <loc>/docs/manual/configuration/configure-devices/</loc>
+    <lastmod>2023-04-16T14:49:46+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-evaluation-priority/</loc>
+    <lastmod>2026-01-21T08:29:09+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/from/simultaneous/</loc>
+    <lastmod>2026-02-07T18:55:06+09:00</lastmod>
   </url><url>
     <loc>/docs/manual/misc/event-modification-chaining/</loc>
+    <lastmod>2024-10-15T09:31:22+09:00</lastmod>
   </url><url>
     <loc>/docs/help/how-to/key-repeat/</loc>
+    <lastmod>2023-01-07T14:30:57+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/conditions/keyboard-type/</loc>
+    <lastmod>2026-02-07T18:55:06+09:00</lastmod>
   </url><url>
     <loc>/docs/manual/misc/</loc>
+    <lastmod>2020-03-01T11:27:54+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/to/software_function/open_application/</loc>
+    <lastmod>2026-02-07T18:55:06+09:00</lastmod>
   </url><url>
     <loc>/docs/json/expert-complex-modifications-examples/swap-function-keys-on-external-keyboards/</loc>
+    <lastmod>2026-02-07T22:40:57+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/to-if-alone/</loc>
+    <lastmod>2026-02-07T18:55:06+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/to/set-variable/</loc>
+    <lastmod>2026-02-11T11:23:48+09:00</lastmod>
   </url><url>
     <loc>/docs/help/troubleshooting/touch-bar-function-keys/</loc>
+    <lastmod>2026-01-21T08:29:09+09:00</lastmod>
   </url><url>
     <loc>/docs/help/advanced-topics/lock-icon/</loc>
+    <lastmod>2023-04-30T12:25:30+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/to/set-notification-message/</loc>
+    <lastmod>2026-02-07T18:55:06+09:00</lastmod>
   </url><url>
     <loc>/docs/manual/operation/eventviewer/</loc>
+    <lastmod>2025-11-03T23:42:31+09:00</lastmod>
   </url><url>
     <loc>/docs/help/troubleshooting/control-eject/</loc>
+    <lastmod>2020-03-01T11:27:54+09:00</lastmod>
   </url><url>
     <loc>/docs/manual/configuration/disable-built-in-keyboard/</loc>
+    <lastmod>2023-04-16T14:49:46+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/from/simultaneous-options/</loc>
+    <lastmod>2026-02-07T18:55:06+09:00</lastmod>
   </url><url>
     <loc>/docs/help/</loc>
+    <lastmod>2020-03-01T11:27:54+09:00</lastmod>
   </url><url>
     <loc>/docs/help/how-to/disable-open-at-login/</loc>
+    <lastmod>2020-03-30T21:13:48+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/conditions/input-source/</loc>
+    <lastmod>2026-02-07T18:55:06+09:00</lastmod>
   </url><url>
     <loc>/docs/json/root-data-structure/</loc>
+    <lastmod>2025-05-01T22:49:17+09:00</lastmod>
   </url><url>
     <loc>/docs/manual/misc/multitouch-extension/</loc>
+    <lastmod>2026-01-21T08:29:09+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/to/software_function/set_mouse_cursor_position/</loc>
+    <lastmod>2026-02-07T18:55:06+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/to-if-held-down/</loc>
+    <lastmod>2026-02-07T18:55:06+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/to/mouse-key/</loc>
+    <lastmod>2026-02-07T18:55:06+09:00</lastmod>
   </url><url>
     <loc>/docs/help/troubleshooting/cannot-use-some-key-combination/</loc>
+    <lastmod>2026-01-21T08:29:09+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/to-if-other-key-pressed/</loc>
+    <lastmod>2026-05-03T14:49:27+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/to/sticky-modifier/</loc>
+    <lastmod>2026-02-07T18:55:06+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/to/software_function/</loc>
+    <lastmod>2026-01-21T08:29:09+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/to/send-user-command/</loc>
+    <lastmod>2026-05-03T14:49:27+09:00</lastmod>
   </url><url>
     <loc>/docs/help/troubleshooting/json-owner-is-invalid/</loc>
+    <lastmod>2025-11-11T19:39:29+09:00</lastmod>
   </url><url>
     <loc>/docs/manual/misc/command-line-interface/</loc>
+    <lastmod>2026-05-03T14:20:15+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/</loc>
+    <lastmod>2026-02-22T11:15:59+09:00</lastmod>
   </url><url>
     <loc>/docs/help/how-to/use-before-logging-in/</loc>
+    <lastmod>2024-10-06T21:51:55+09:00</lastmod>
   </url><url>
     <loc>/docs/manual/operation/profiles/</loc>
+    <lastmod>2022-07-17T09:40:17+09:00</lastmod>
   </url><url>
     <loc>/docs/manual/configuration/configure-keyboard-type/</loc>
+    <lastmod>2026-01-21T08:29:09+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/to-after-key-up/</loc>
+    <lastmod>2026-02-07T18:55:06+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/to/modifiers/</loc>
+    <lastmod>2020-03-14T01:13:57+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/conditions/variable/</loc>
+    <lastmod>2026-04-08T09:07:51+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/conditions/expression/</loc>
+    <lastmod>2026-05-03T14:49:27+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/to/from-event/</loc>
+    <lastmod>2026-05-03T14:49:27+09:00</lastmod>
   </url><url>
     <loc>/docs/manual/configuration/configure-menu-bar-icon/</loc>
+    <lastmod>2026-01-21T08:29:09+09:00</lastmod>
   </url><url>
     <loc>/docs/help/how-to/function-keys/</loc>
+    <lastmod>2026-02-07T18:55:06+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/conditions/event-changed/</loc>
+    <lastmod>2026-02-07T18:55:06+09:00</lastmod>
   </url><url>
     <loc>/docs/json/extra/</loc>
+    <lastmod>2020-03-15T21:37:11+09:00</lastmod>
   </url><url>
     <loc>/docs/help/troubleshooting/placeholder-developer/</loc>
+    <lastmod>2026-01-21T08:29:09+09:00</lastmod>
   </url><url>
     <loc>/docs/manual/operation/log/</loc>
+    <lastmod>2026-05-03T12:42:42+09:00</lastmod>
   </url><url>
     <loc>/docs/manual/misc/configuration-file-path/</loc>
+    <lastmod>2026-01-21T08:29:09+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/to-delayed-action/</loc>
+    <lastmod>2026-02-07T18:55:06+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/to/lazy/</loc>
+    <lastmod>2026-02-07T18:55:06+09:00</lastmod>
   </url><url>
     <loc>/docs/manual/misc/change-app-icon/</loc>
+    <lastmod>2023-04-16T15:36:23+09:00</lastmod>
   </url><url>
     <loc>/docs/privacy/</loc>
+    <lastmod>2026-05-04T17:42:58+09:00</lastmod>
   </url><url>
     <loc>/docs/help/troubleshooting/caps-lock-led-not-working/</loc>
+    <lastmod>2023-04-16T15:11:22+09:00</lastmod>
   </url><url>
     <loc>/docs/contact/</loc>
+    <lastmod>2026-05-03T14:32:13+09:00</lastmod>
   </url><url>
     <loc>/docs/manual/operation/export/</loc>
+    <lastmod>2023-04-16T14:54:59+09:00</lastmod>
   </url><url>
     <loc>/docs/json/external-json-generators/</loc>
+    <lastmod>2026-01-21T08:29:09+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/to/repeat/</loc>
+    <lastmod>2026-02-07T18:55:06+09:00</lastmod>
   </url><url>
     <loc>/docs/manual/operation/about-unsafe-configuration/</loc>
+    <lastmod>2025-06-29T18:10:12+09:00</lastmod>
   </url><url>
     <loc>/docs/manual/operation/downgrade/</loc>
+    <lastmod>2021-11-13T10:30:38+09:00</lastmod>
   </url><url>
     <loc>/docs/pricing/</loc>
+    <lastmod>2026-05-05T16:24:36+09:00</lastmod>
   </url><url>
     <loc>/docs/help/troubleshooting/preferences-window-shown-at-login/</loc>
+    <lastmod>2023-01-07T15:11:36+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/to/halt/</loc>
+    <lastmod>2026-02-07T18:55:06+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/conditions/</loc>
+    <lastmod>2020-03-07T22:01:55+09:00</lastmod>
   </url><url>
     <loc>/docs/help/troubleshooting/symbols-with-non-ansi-keyboard/</loc>
+    <lastmod>2026-01-21T08:29:09+09:00</lastmod>
   </url><url>
     <loc>/docs/releasenotes/</loc>
+    <lastmod>2026-05-03T14:32:13+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/to/hold-down-milliseconds/</loc>
+    <lastmod>2026-02-07T18:55:06+09:00</lastmod>
   </url><url>
     <loc>/docs/help/troubleshooting/logitech-logi-options-plus-compatibility/</loc>
+    <lastmod>2026-01-21T08:29:09+09:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/to/to-conditions/</loc>
+    <lastmod>2026-02-07T18:55:06+09:00</lastmod>
   </url><url>
     <loc>/docs/json/</loc>
+    <lastmod>2020-04-23T00:00:22-06:00</lastmod>
   </url><url>
     <loc>/docs/json/complex-modifications-manipulator-definition/other-types/</loc>
+    <lastmod>2020-03-14T21:54:04+09:00</lastmod>
   </url><url>
     <loc>/</loc>
+    <lastmod>2026-05-05T16:24:36+09:00</lastmod>
   </url>
 </urlset>

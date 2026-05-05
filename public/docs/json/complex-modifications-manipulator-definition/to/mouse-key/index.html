@@ -19,13 +19,16 @@ Example shortcuts Move mouse cursor right_shift &#43; arrow keys Fast move right
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
+    <meta property="article:modified_time" content="2026-02-07T18:55:06+09:00">
     <meta property="og:image" content="https://karabiner-elements.pqrs.org/images/logo.png">
-
-  <meta itemprop="name" content="to.mouse_key">
-  <meta itemprop="description" content="Move mouse pointer and scroll by mouse_key.
+<meta itemprop="name" content="to.mouse_key">
+<meta itemprop="description" content="Move mouse pointer and scroll by mouse_key.
 Example shortcuts Move mouse cursor right_shift &#43; arrow keys Fast move right_shift &#43; f &#43; arrow keys Click right_shift &#43; v Scroll wheel right_command &#43; arrow keys 💡 How to use this example { &#34;description&#34;: &#34;Move mouse cursor by right_shift &#43; arrows, scroll by right_command &#43; arrows&#34;, &#34;manipulators&#34;: [ // y { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;up_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_shift&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;y&#34;: -1536 } }] }, { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;down_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_shift&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;y&#34;: 1536 } }] }, // x { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;left_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_shift&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;x&#34;: -1536 } }] }, { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;right_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_shift&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;x&#34;: 1536 } }] }, // speed_multiplier { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;f&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_shift&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;speed_multiplier&#34;: 4.0 } }] }, // click { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;v&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_shift&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;pointing_button&#34;: &#34;button1&#34; }] }, // vertical_wheel { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;up_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_command&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;vertical_wheel&#34;: -32 } }] }, { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;down_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_command&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;vertical_wheel&#34;: 32 } }] }, // horizontal_wheel { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;left_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_command&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;horizontal_wheel&#34;: 32 } }] }, { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;right_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_command&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;horizontal_wheel&#34;: -32 } }] } ] } Specification { &#34;to&#34;: [ { &#34;mouse_key&#34;: { &#34;x&#34;: speed, &#34;y&#34;: speed, &#34;vertical_wheel&#34;: speed, &#34;horizontal_wheel&#34;: speed, &#34;speed_multiplier&#34;: 1.0 } } ] } Name Required Description x Optional Move left (x &lt; 0) or right (x &gt; 0) y Optional Move up (y &lt; 0) or down (y &gt; 0) vertical_wheel Optional Scroll up (vertical_wheel &lt; 0) or down (vertical_wheel &gt; 0) horizontal_wheel Optional Scroll left (horizontal_wheel &gt; 0) or right (horizontal_wheel &lt; 0) speed_multiplier Optional Multiply mouse keys speed while this key is hold down Note Speed and scroll direction depend on System Settings &gt; Mouse configuration.">
-  <meta itemprop="wordCount" content="413">
-  <meta itemprop="image" content="https://karabiner-elements.pqrs.org/images/logo.png">
+
+<meta itemprop="dateModified" content="2026-02-07T18:55:06&#43;09:00">
+<meta itemprop="wordCount" content="413">
+<meta itemprop="image" content="https://karabiner-elements.pqrs.org/images/logo.png">
+
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://karabiner-elements.pqrs.org/images/logo.png">
   <meta name="twitter:title" content="to.mouse_key">
@@ -916,7 +919,13 @@ Example shortcuts Move mouse cursor right_shift &#43; arrow keys Fast move right
 <li><a href="https://ke-complex-modifications.pqrs.org/#mouse_keys_mode_v4">Mouse Keys Mode v4</a></li>
 </ul>
 
-	
+	<div class="td-page-meta__lastmod">
+    Last modified: 2026-02-07
+      <a href="https://github.com/pqrs-org/pqrs.org/blob/main/sites/karabiner-elements/content/en/docs/json/complex-modifications-manipulator-definition/to/mouse-key/index.md?plain=1" target="_blank" rel="noopener">
+        <i class="fab fa-github ms-1"></i>
+        Markdown
+      </a>
+  </div>
 </div>
 
 
@@ -924,7 +933,7 @@ Example shortcuts Move mouse cursor right_shift &#43; arrow keys Fast move right
         </div>
       </div>
       <footer class="bg-primary py-5 row text-center d-print-none">
-  <a class="text-white" href="https://pqrs.org" target="_blank">
+  <a class="text-white" href="https://pqrs.org" target="_blank" rel="noopener">
     pqrs.org
   </a>
 </footer>
@@ -935,7 +944,7 @@ Example shortcuts Move mouse cursor right_shift &#43; arrow keys Fast move right
 <script src='/js/tabpane-persist.js'></script>
 
 
-<script src="/js/share/pqrs.min.487daf9297bc17e6675323faa461291a5426e7d052e14a2d3281b3b6ec16f694.js"></script>
+<script src="/js/share/pqrs.min.2f86dd911affea795fca9b054e66fdee3cdfa1338722806dc65778bfb7c1a331.js"></script>
 
   </body>
 </html>
