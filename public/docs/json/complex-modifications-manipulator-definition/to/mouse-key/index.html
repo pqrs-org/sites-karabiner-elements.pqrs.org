@@ -12,15 +12,15 @@
 <meta name="description" content="Move mouse pointer and scroll by mouse_key.
 Example shortcuts Move mouse cursor right_shift &#43; arrow keys Fast move right_shift &#43; f &#43; arrow keys Click right_shift &#43; v Scroll wheel right_command &#43; arrow keys 💡 How to use this example { &#34;description&#34;: &#34;Move mouse cursor by right_shift &#43; arrows, scroll by right_command &#43; arrows&#34;, &#34;manipulators&#34;: [ // y { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;up_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_shift&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;y&#34;: -1536 } }] }, { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;down_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_shift&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;y&#34;: 1536 } }] }, // x { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;left_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_shift&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;x&#34;: -1536 } }] }, { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;right_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_shift&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;x&#34;: 1536 } }] }, // speed_multiplier { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;f&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_shift&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;speed_multiplier&#34;: 4.0 } }] }, // click { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;v&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_shift&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;pointing_button&#34;: &#34;button1&#34; }] }, // vertical_wheel { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;up_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_command&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;vertical_wheel&#34;: -32 } }] }, { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;down_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_command&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;vertical_wheel&#34;: 32 } }] }, // horizontal_wheel { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;left_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_command&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;horizontal_wheel&#34;: 32 } }] }, { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;right_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_command&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;horizontal_wheel&#34;: -32 } }] } ] } Specification { &#34;to&#34;: [ { &#34;mouse_key&#34;: { &#34;x&#34;: speed, &#34;y&#34;: speed, &#34;vertical_wheel&#34;: speed, &#34;horizontal_wheel&#34;: speed, &#34;speed_multiplier&#34;: 1.0 } } ] } Name Required Description x Optional Move left (x &lt; 0) or right (x &gt; 0) y Optional Move up (y &lt; 0) or down (y &gt; 0) vertical_wheel Optional Scroll up (vertical_wheel &lt; 0) or down (vertical_wheel &gt; 0) horizontal_wheel Optional Scroll left (horizontal_wheel &gt; 0) or right (horizontal_wheel &lt; 0) speed_multiplier Optional Multiply mouse keys speed while this key is hold down Note Speed and scroll direction depend on System Settings &gt; Mouse configuration.">
 <meta property="og:url" content="/docs/json/complex-modifications-manipulator-definition/to/mouse-key/">
-  <meta property="og:site_name" content="Karabiner-Elements">
-  <meta property="og:title" content="to.mouse_key">
-  <meta property="og:description" content="Move mouse pointer and scroll by mouse_key.
+	<meta property="og:site_name" content="Karabiner-Elements">
+	<meta property="og:title" content="to.mouse_key">
+	<meta property="og:description" content="Move mouse pointer and scroll by mouse_key.
 Example shortcuts Move mouse cursor right_shift &#43; arrow keys Fast move right_shift &#43; f &#43; arrow keys Click right_shift &#43; v Scroll wheel right_command &#43; arrow keys 💡 How to use this example { &#34;description&#34;: &#34;Move mouse cursor by right_shift &#43; arrows, scroll by right_command &#43; arrows&#34;, &#34;manipulators&#34;: [ // y { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;up_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_shift&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;y&#34;: -1536 } }] }, { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;down_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_shift&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;y&#34;: 1536 } }] }, // x { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;left_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_shift&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;x&#34;: -1536 } }] }, { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;right_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_shift&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;x&#34;: 1536 } }] }, // speed_multiplier { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;f&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_shift&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;speed_multiplier&#34;: 4.0 } }] }, // click { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;v&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_shift&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;pointing_button&#34;: &#34;button1&#34; }] }, // vertical_wheel { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;up_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_command&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;vertical_wheel&#34;: -32 } }] }, { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;down_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_command&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;vertical_wheel&#34;: 32 } }] }, // horizontal_wheel { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;left_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_command&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;horizontal_wheel&#34;: 32 } }] }, { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;right_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_command&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;horizontal_wheel&#34;: -32 } }] } ] } Specification { &#34;to&#34;: [ { &#34;mouse_key&#34;: { &#34;x&#34;: speed, &#34;y&#34;: speed, &#34;vertical_wheel&#34;: speed, &#34;horizontal_wheel&#34;: speed, &#34;speed_multiplier&#34;: 1.0 } } ] } Name Required Description x Optional Move left (x &lt; 0) or right (x &gt; 0) y Optional Move up (y &lt; 0) or down (y &gt; 0) vertical_wheel Optional Scroll up (vertical_wheel &lt; 0) or down (vertical_wheel &gt; 0) horizontal_wheel Optional Scroll left (horizontal_wheel &gt; 0) or right (horizontal_wheel &lt; 0) speed_multiplier Optional Multiply mouse keys speed while this key is hold down Note Speed and scroll direction depend on System Settings &gt; Mouse configuration.">
-  <meta property="og:locale" content="en">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="docs">
-    <meta property="article:modified_time" content="2026-02-07T18:55:06+09:00">
-    <meta property="og:image" content="https://karabiner-elements.pqrs.org/images/logo.png">
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="docs">
+		<meta property="article:modified_time" content="2026-02-07T18:55:06+09:00">
+		<meta property="og:image" content="https://karabiner-elements.pqrs.org/images/logo.png">
 <meta itemprop="name" content="to.mouse_key">
 <meta itemprop="description" content="Move mouse pointer and scroll by mouse_key.
 Example shortcuts Move mouse cursor right_shift &#43; arrow keys Fast move right_shift &#43; f &#43; arrow keys Click right_shift &#43; v Scroll wheel right_command &#43; arrow keys 💡 How to use this example { &#34;description&#34;: &#34;Move mouse cursor by right_shift &#43; arrows, scroll by right_command &#43; arrows&#34;, &#34;manipulators&#34;: [ // y { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;up_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_shift&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;y&#34;: -1536 } }] }, { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;down_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_shift&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;y&#34;: 1536 } }] }, // x { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;left_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_shift&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;x&#34;: -1536 } }] }, { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;right_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_shift&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;x&#34;: 1536 } }] }, // speed_multiplier { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;f&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_shift&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;speed_multiplier&#34;: 4.0 } }] }, // click { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;v&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_shift&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;pointing_button&#34;: &#34;button1&#34; }] }, // vertical_wheel { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;up_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_command&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;vertical_wheel&#34;: -32 } }] }, { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;down_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_command&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;vertical_wheel&#34;: 32 } }] }, // horizontal_wheel { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;left_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_command&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;horizontal_wheel&#34;: 32 } }] }, { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;right_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_command&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;horizontal_wheel&#34;: -32 } }] } ] } Specification { &#34;to&#34;: [ { &#34;mouse_key&#34;: { &#34;x&#34;: speed, &#34;y&#34;: speed, &#34;vertical_wheel&#34;: speed, &#34;horizontal_wheel&#34;: speed, &#34;speed_multiplier&#34;: 1.0 } } ] } Name Required Description x Optional Move left (x &lt; 0) or right (x &gt; 0) y Optional Move up (y &lt; 0) or down (y &gt; 0) vertical_wheel Optional Scroll up (vertical_wheel &lt; 0) or down (vertical_wheel &gt; 0) horizontal_wheel Optional Scroll left (horizontal_wheel &gt; 0) or right (horizontal_wheel &lt; 0) speed_multiplier Optional Multiply mouse keys speed while this key is hold down Note Speed and scroll direction depend on System Settings &gt; Mouse configuration.">
@@ -29,13 +29,13 @@ Example shortcuts Move mouse cursor right_shift &#43; arrow keys Fast move right
 <meta itemprop="wordCount" content="413">
 <meta itemprop="image" content="https://karabiner-elements.pqrs.org/images/logo.png">
 
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://karabiner-elements.pqrs.org/images/logo.png">
-  <meta name="twitter:title" content="to.mouse_key">
-  <meta name="twitter:description" content="Move mouse pointer and scroll by mouse_key.
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="https://karabiner-elements.pqrs.org/images/logo.png">
+	<meta name="twitter:title" content="to.mouse_key">
+	<meta name="twitter:description" content="Move mouse pointer and scroll by mouse_key.
 Example shortcuts Move mouse cursor right_shift &#43; arrow keys Fast move right_shift &#43; f &#43; arrow keys Click right_shift &#43; v Scroll wheel right_command &#43; arrow keys 💡 How to use this example { &#34;description&#34;: &#34;Move mouse cursor by right_shift &#43; arrows, scroll by right_command &#43; arrows&#34;, &#34;manipulators&#34;: [ // y { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;up_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_shift&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;y&#34;: -1536 } }] }, { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;down_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_shift&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;y&#34;: 1536 } }] }, // x { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;left_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_shift&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;x&#34;: -1536 } }] }, { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;right_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_shift&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;x&#34;: 1536 } }] }, // speed_multiplier { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;f&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_shift&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;speed_multiplier&#34;: 4.0 } }] }, // click { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;v&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_shift&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;pointing_button&#34;: &#34;button1&#34; }] }, // vertical_wheel { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;up_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_command&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;vertical_wheel&#34;: -32 } }] }, { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;down_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_command&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;vertical_wheel&#34;: 32 } }] }, // horizontal_wheel { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;left_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_command&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;horizontal_wheel&#34;: 32 } }] }, { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;right_arrow&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: &#34;right_command&#34;, &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;mouse_key&#34;: { &#34;horizontal_wheel&#34;: -32 } }] } ] } Specification { &#34;to&#34;: [ { &#34;mouse_key&#34;: { &#34;x&#34;: speed, &#34;y&#34;: speed, &#34;vertical_wheel&#34;: speed, &#34;horizontal_wheel&#34;: speed, &#34;speed_multiplier&#34;: 1.0 } } ] } Name Required Description x Optional Move left (x &lt; 0) or right (x &gt; 0) y Optional Move up (y &lt; 0) or down (y &gt; 0) vertical_wheel Optional Scroll up (vertical_wheel &lt; 0) or down (vertical_wheel &gt; 0) horizontal_wheel Optional Scroll left (horizontal_wheel &gt; 0) or right (horizontal_wheel &lt; 0) speed_multiplier Optional Multiply mouse keys speed while this key is hold down Note Speed and scroll direction depend on System Settings &gt; Mouse configuration.">
-<link rel="preload" href="/scss/main.min.cf4f4d529929f2949150b6696a01a4ed498aae40bbc8ebe8257dfc7e100f7dbe.css" as="style" integrity="sha256-z09NUpkp8pSRULZpagGk7UmKrkC7yOvoJX38fhAPfb4=" crossorigin="anonymous">
-<link href="/scss/main.min.cf4f4d529929f2949150b6696a01a4ed498aae40bbc8ebe8257dfc7e100f7dbe.css" rel="stylesheet" integrity="sha256-z09NUpkp8pSRULZpagGk7UmKrkC7yOvoJX38fhAPfb4=" crossorigin="anonymous">
+<link rel="preload" href="/scss/main.min.614d9033b52913684a31051ff5441d5b34610be9ca82aea3a152aed2d038ec41.css" as="style" integrity="sha256-YU2QM7UpE2hKMQUf9UQdWzRhC&#43;nKgq6joVKu0tA47EE=" crossorigin="anonymous">
+<link href="/scss/main.min.614d9033b52913684a31051ff5441d5b34610be9ca82aea3a152aed2d038ec41.css" rel="stylesheet" integrity="sha256-YU2QM7UpE2hKMQUf9UQdWzRhC&#43;nKgq6joVKu0tA47EE=" crossorigin="anonymous">
 <script
   src="https://code.jquery.com/jquery-3.7.1.min.js"
   integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
@@ -71,7 +71,7 @@ Example shortcuts Move mouse cursor right_shift &#43; arrow keys Fast move right
     aria-label='Search this site…'
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.1f9a10cd7c1082587ad2994d1acf2295.json"
+    data-offline-search-index-json-src="/offline-search-index.56465a080be2c7661c65eee783a2e64d.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="25"
   >
@@ -96,7 +96,7 @@ Example shortcuts Move mouse cursor right_shift &#43; arrow keys Fast move right
     aria-label='Search this site…'
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.1f9a10cd7c1082587ad2994d1acf2295.json"
+    data-offline-search-index-json-src="/offline-search-index.56465a080be2c7661c65eee783a2e64d.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="25"
   >
@@ -712,30 +712,30 @@ Example shortcuts Move mouse cursor right_shift &#43; arrow keys Fast move right
 	<p>Move mouse pointer and scroll by <code>mouse_key</code>.</p>
 <h2 id="example">Example</h2>
 <table>
-  <thead>
-      <tr>
-          <th></th>
-          <th>shortcuts</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Move mouse cursor</td>
-          <td><kbd>right_shift + arrow keys</kbd></td>
-      </tr>
-      <tr>
-          <td>Fast move</td>
-          <td><kbd>right_shift + f + arrow keys</kbd></td>
-      </tr>
-      <tr>
-          <td>Click</td>
-          <td><kbd>right_shift + v</kbd></td>
-      </tr>
-      <tr>
-          <td>Scroll wheel</td>
-          <td><kbd>right_command + arrow keys</kbd></td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th></th>
+					<th>shortcuts</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Move mouse cursor</td>
+					<td><kbd>right_shift + arrow keys</kbd></td>
+			</tr>
+			<tr>
+					<td>Fast move</td>
+					<td><kbd>right_shift + f + arrow keys</kbd></td>
+			</tr>
+			<tr>
+					<td>Click</td>
+					<td><kbd>right_shift + v</kbd></td>
+			</tr>
+			<tr>
+					<td>Scroll wheel</td>
+					<td><kbd>right_command + arrow keys</kbd></td>
+			</tr>
+	</tbody>
 </table>
 <div class="highlight" style="margin-top: 0rem; margin-bottom: -2rem">
   <a
@@ -875,40 +875,40 @@ Example shortcuts Move mouse cursor right_shift &#43; arrow keys Fast move right
 </span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">]</span>
 </span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
 </span></span></code></pre></div><table>
-  <thead>
-      <tr>
-          <th>Name</th>
-          <th>Required</th>
-          <th>Description</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><code>x</code></td>
-          <td>Optional</td>
-          <td>Move left (x &lt; 0) or right (x &gt; 0)</td>
-      </tr>
-      <tr>
-          <td><code>y</code></td>
-          <td>Optional</td>
-          <td>Move up (y &lt; 0) or down (y &gt; 0)</td>
-      </tr>
-      <tr>
-          <td><code>vertical_wheel</code></td>
-          <td>Optional</td>
-          <td>Scroll up (vertical_wheel &lt; 0) or down (vertical_wheel &gt; 0)</td>
-      </tr>
-      <tr>
-          <td><code>horizontal_wheel</code></td>
-          <td>Optional</td>
-          <td>Scroll left (horizontal_wheel &gt; 0) or right (horizontal_wheel &lt; 0)</td>
-      </tr>
-      <tr>
-          <td><code>speed_multiplier</code></td>
-          <td>Optional</td>
-          <td>Multiply mouse keys speed while this key is hold down</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>Name</th>
+					<th>Required</th>
+					<th>Description</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><code>x</code></td>
+					<td>Optional</td>
+					<td>Move left (x &lt; 0) or right (x &gt; 0)</td>
+			</tr>
+			<tr>
+					<td><code>y</code></td>
+					<td>Optional</td>
+					<td>Move up (y &lt; 0) or down (y &gt; 0)</td>
+			</tr>
+			<tr>
+					<td><code>vertical_wheel</code></td>
+					<td>Optional</td>
+					<td>Scroll up (vertical_wheel &lt; 0) or down (vertical_wheel &gt; 0)</td>
+			</tr>
+			<tr>
+					<td><code>horizontal_wheel</code></td>
+					<td>Optional</td>
+					<td>Scroll left (horizontal_wheel &gt; 0) or right (horizontal_wheel &lt; 0)</td>
+			</tr>
+			<tr>
+					<td><code>speed_multiplier</code></td>
+					<td>Optional</td>
+					<td>Multiply mouse keys speed while this key is hold down</td>
+			</tr>
+	</tbody>
 </table>
 <div class="alert alert-primary" role="alert"><div class="h4 alert-heading" role="heading">Note</div>
 <p>Speed and scroll direction depend on System Settings &gt; Mouse configuration.</p>
