@@ -11,25 +11,28 @@
 <title>to.set_notification_message | Karabiner-Elements</title>
 <meta name="description" content="set_notification_message sets or remove the notification message.
 Examples Show the notification message while you press right shift key.
-💡 How to use this example { &#34;description&#34;: &#34;Show a message while right_shift is pressed&#34;, &#34;manipulators&#34;: [ { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;right_shift&#34;, &#34;modifiers&#34;: { &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [ { // Show the notification message &#34;set_notification_message&#34;: { &#34;id&#34;: &#34;my_message&#34;, &#34;text&#34;: &#34;Hello World!&#34; } }, { &#34;key_code&#34;: &#34;right_shift&#34; } ], &#34;to_after_key_up&#34;: [ { // Hide the notification message &#34;set_notification_message&#34;: { &#34;id&#34;: &#34;my_message&#34;, &#34;text&#34;: &#34;&#34; } } ] } ] } Specification { &#34;to&#34;: [ { &#34;set_notification_message&#34;: { &#34;id&#34;: &#34;identifier of the message&#34;, &#34;text&#34;: &#34;message text&#34; } } ] } Name Required Description id Required Specify an unique string for your notification message text Required Message body Important Do not forget to remove the notification message.">
+💡 How to use this example { &#34;description&#34;: &#34;Show a message while right_shift is pressed&#34;, &#34;manipulators&#34;: [ { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;right_shift&#34;, &#34;modifiers&#34;: { &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [ { // Show the notification message &#34;set_notification_message&#34;: { &#34;id&#34;: &#34;my_message&#34;, &#34;text&#34;: &#34;Hello World!&#34; } }, { &#34;key_code&#34;: &#34;right_shift&#34; } ], &#34;to_after_key_up&#34;: [ { // Hide the notification message &#34;set_notification_message&#34;: { &#34;id&#34;: &#34;my_message&#34;, &#34;text&#34;: &#34;&#34; } } ] } ] } Specification { &#34;to&#34;: [ { &#34;set_notification_message&#34;: { &#34;id&#34;: &#34;identifier of the message&#34;, &#34;text&#34;: &#34;message text&#34;, &#34;duration_milliseconds&#34;: 3000 } } ] } NameRequiredDescription id Required A unique identifier for the notification message. text Required The notification message to display. duration_milliseconds Optional If specified, the notification message is dismissed after the specified number of milliseconds.
+(Available since Karabiner-Elements 16.1.18) Important Do not forget to remove the notification message.">
 <meta property="og:url" content="/docs/json/complex-modifications-manipulator-definition/to/set-notification-message/">
 	<meta property="og:site_name" content="Karabiner-Elements">
 	<meta property="og:title" content="to.set_notification_message">
 	<meta property="og:description" content="set_notification_message sets or remove the notification message.
 Examples Show the notification message while you press right shift key.
-💡 How to use this example { &#34;description&#34;: &#34;Show a message while right_shift is pressed&#34;, &#34;manipulators&#34;: [ { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;right_shift&#34;, &#34;modifiers&#34;: { &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [ { // Show the notification message &#34;set_notification_message&#34;: { &#34;id&#34;: &#34;my_message&#34;, &#34;text&#34;: &#34;Hello World!&#34; } }, { &#34;key_code&#34;: &#34;right_shift&#34; } ], &#34;to_after_key_up&#34;: [ { // Hide the notification message &#34;set_notification_message&#34;: { &#34;id&#34;: &#34;my_message&#34;, &#34;text&#34;: &#34;&#34; } } ] } ] } Specification { &#34;to&#34;: [ { &#34;set_notification_message&#34;: { &#34;id&#34;: &#34;identifier of the message&#34;, &#34;text&#34;: &#34;message text&#34; } } ] } Name Required Description id Required Specify an unique string for your notification message text Required Message body Important Do not forget to remove the notification message.">
+💡 How to use this example { &#34;description&#34;: &#34;Show a message while right_shift is pressed&#34;, &#34;manipulators&#34;: [ { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;right_shift&#34;, &#34;modifiers&#34;: { &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [ { // Show the notification message &#34;set_notification_message&#34;: { &#34;id&#34;: &#34;my_message&#34;, &#34;text&#34;: &#34;Hello World!&#34; } }, { &#34;key_code&#34;: &#34;right_shift&#34; } ], &#34;to_after_key_up&#34;: [ { // Hide the notification message &#34;set_notification_message&#34;: { &#34;id&#34;: &#34;my_message&#34;, &#34;text&#34;: &#34;&#34; } } ] } ] } Specification { &#34;to&#34;: [ { &#34;set_notification_message&#34;: { &#34;id&#34;: &#34;identifier of the message&#34;, &#34;text&#34;: &#34;message text&#34;, &#34;duration_milliseconds&#34;: 3000 } } ] } NameRequiredDescription id Required A unique identifier for the notification message. text Required The notification message to display. duration_milliseconds Optional If specified, the notification message is dismissed after the specified number of milliseconds.
+(Available since Karabiner-Elements 16.1.18) Important Do not forget to remove the notification message.">
 	<meta property="og:locale" content="en">
 	<meta property="og:type" content="article">
 		<meta property="article:section" content="docs">
-		<meta property="article:modified_time" content="2026-02-07T18:55:06+09:00">
+		<meta property="article:modified_time" content="2026-08-12T22:39:21+09:00">
 		<meta property="og:image" content="https://karabiner-elements.pqrs.org/images/logo.png">
 <meta itemprop="name" content="to.set_notification_message">
 <meta itemprop="description" content="set_notification_message sets or remove the notification message.
 Examples Show the notification message while you press right shift key.
-💡 How to use this example { &#34;description&#34;: &#34;Show a message while right_shift is pressed&#34;, &#34;manipulators&#34;: [ { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;right_shift&#34;, &#34;modifiers&#34;: { &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [ { // Show the notification message &#34;set_notification_message&#34;: { &#34;id&#34;: &#34;my_message&#34;, &#34;text&#34;: &#34;Hello World!&#34; } }, { &#34;key_code&#34;: &#34;right_shift&#34; } ], &#34;to_after_key_up&#34;: [ { // Hide the notification message &#34;set_notification_message&#34;: { &#34;id&#34;: &#34;my_message&#34;, &#34;text&#34;: &#34;&#34; } } ] } ] } Specification { &#34;to&#34;: [ { &#34;set_notification_message&#34;: { &#34;id&#34;: &#34;identifier of the message&#34;, &#34;text&#34;: &#34;message text&#34; } } ] } Name Required Description id Required Specify an unique string for your notification message text Required Message body Important Do not forget to remove the notification message.">
+💡 How to use this example { &#34;description&#34;: &#34;Show a message while right_shift is pressed&#34;, &#34;manipulators&#34;: [ { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;right_shift&#34;, &#34;modifiers&#34;: { &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [ { // Show the notification message &#34;set_notification_message&#34;: { &#34;id&#34;: &#34;my_message&#34;, &#34;text&#34;: &#34;Hello World!&#34; } }, { &#34;key_code&#34;: &#34;right_shift&#34; } ], &#34;to_after_key_up&#34;: [ { // Hide the notification message &#34;set_notification_message&#34;: { &#34;id&#34;: &#34;my_message&#34;, &#34;text&#34;: &#34;&#34; } } ] } ] } Specification { &#34;to&#34;: [ { &#34;set_notification_message&#34;: { &#34;id&#34;: &#34;identifier of the message&#34;, &#34;text&#34;: &#34;message text&#34;, &#34;duration_milliseconds&#34;: 3000 } } ] } NameRequiredDescription id Required A unique identifier for the notification message. text Required The notification message to display. duration_milliseconds Optional If specified, the notification message is dismissed after the specified number of milliseconds.
+(Available since Karabiner-Elements 16.1.18) Important Do not forget to remove the notification message.">
 
-<meta itemprop="dateModified" content="2026-02-07T18:55:06&#43;09:00">
-<meta itemprop="wordCount" content="151">
+<meta itemprop="dateModified" content="2026-08-12T22:39:21&#43;09:00">
+<meta itemprop="wordCount" content="172">
 <meta itemprop="image" content="https://karabiner-elements.pqrs.org/images/logo.png">
 
 	<meta name="twitter:card" content="summary_large_image">
@@ -37,9 +40,10 @@ Examples Show the notification message while you press right shift key.
 	<meta name="twitter:title" content="to.set_notification_message">
 	<meta name="twitter:description" content="set_notification_message sets or remove the notification message.
 Examples Show the notification message while you press right shift key.
-💡 How to use this example { &#34;description&#34;: &#34;Show a message while right_shift is pressed&#34;, &#34;manipulators&#34;: [ { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;right_shift&#34;, &#34;modifiers&#34;: { &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [ { // Show the notification message &#34;set_notification_message&#34;: { &#34;id&#34;: &#34;my_message&#34;, &#34;text&#34;: &#34;Hello World!&#34; } }, { &#34;key_code&#34;: &#34;right_shift&#34; } ], &#34;to_after_key_up&#34;: [ { // Hide the notification message &#34;set_notification_message&#34;: { &#34;id&#34;: &#34;my_message&#34;, &#34;text&#34;: &#34;&#34; } } ] } ] } Specification { &#34;to&#34;: [ { &#34;set_notification_message&#34;: { &#34;id&#34;: &#34;identifier of the message&#34;, &#34;text&#34;: &#34;message text&#34; } } ] } Name Required Description id Required Specify an unique string for your notification message text Required Message body Important Do not forget to remove the notification message.">
-<link rel="preload" href="/scss/main.min.bb2262ef200e35d740ee51b849ea686ec3b9655b33c72c6589fed4654fc5c1d8.css" as="style" integrity="sha256-uyJi7yAONddA7lG4SepobsO5ZVszxyxlif7UZU/Fwdg=" crossorigin="anonymous">
-<link href="/scss/main.min.bb2262ef200e35d740ee51b849ea686ec3b9655b33c72c6589fed4654fc5c1d8.css" rel="stylesheet" integrity="sha256-uyJi7yAONddA7lG4SepobsO5ZVszxyxlif7UZU/Fwdg=" crossorigin="anonymous">
+💡 How to use this example { &#34;description&#34;: &#34;Show a message while right_shift is pressed&#34;, &#34;manipulators&#34;: [ { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;right_shift&#34;, &#34;modifiers&#34;: { &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [ { // Show the notification message &#34;set_notification_message&#34;: { &#34;id&#34;: &#34;my_message&#34;, &#34;text&#34;: &#34;Hello World!&#34; } }, { &#34;key_code&#34;: &#34;right_shift&#34; } ], &#34;to_after_key_up&#34;: [ { // Hide the notification message &#34;set_notification_message&#34;: { &#34;id&#34;: &#34;my_message&#34;, &#34;text&#34;: &#34;&#34; } } ] } ] } Specification { &#34;to&#34;: [ { &#34;set_notification_message&#34;: { &#34;id&#34;: &#34;identifier of the message&#34;, &#34;text&#34;: &#34;message text&#34;, &#34;duration_milliseconds&#34;: 3000 } } ] } NameRequiredDescription id Required A unique identifier for the notification message. text Required The notification message to display. duration_milliseconds Optional If specified, the notification message is dismissed after the specified number of milliseconds.
+(Available since Karabiner-Elements 16.1.18) Important Do not forget to remove the notification message.">
+<link rel="preload" href="/scss/main.min.65a9afd2071342a4736f293180380f134052e6370a114deaf11ca9919554509a.css" as="style" integrity="sha256-Zamv0gcTQqRzbykxgDgPE0BS5jcKEU3q8RypkZVUUJo=" crossorigin="anonymous">
+<link href="/scss/main.min.65a9afd2071342a4736f293180380f134052e6370a114deaf11ca9919554509a.css" rel="stylesheet" integrity="sha256-Zamv0gcTQqRzbykxgDgPE0BS5jcKEU3q8RypkZVUUJo=" crossorigin="anonymous">
 <script
   src="https://code.jquery.com/jquery-3.7.1.min.js"
   integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
@@ -75,7 +79,7 @@ Examples Show the notification message while you press right shift key.
     aria-label='Search this site…'
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.b6481294947426b922214661c86d1bd3.json"
+    data-offline-search-index-json-src="/offline-search-index.ae0fc8253664388238bf5fb9949a5e0b.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="25"
   >
@@ -100,7 +104,7 @@ Examples Show the notification message while you press right shift key.
     aria-label='Search this site…'
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.b6481294947426b922214661c86d1bd3.json"
+    data-offline-search-index-json-src="/offline-search-index.ae0fc8253664388238bf5fb9949a5e0b.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="25"
   >
@@ -776,32 +780,32 @@ Examples Show the notification message while you press right shift key.
 </span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">{</span>
 </span></span><span style="display:flex;"><span>            <span style="color:#204a87;font-weight:bold">&#34;set_notification_message&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">{</span>
 </span></span><span style="display:flex;"><span>                <span style="color:#204a87;font-weight:bold">&#34;id&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;identifier of the message&#34;</span><span style="color:#000;font-weight:bold">,</span>
-</span></span><span style="display:flex;"><span>                <span style="color:#204a87;font-weight:bold">&#34;text&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;message text&#34;</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#204a87;font-weight:bold">&#34;text&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;message text&#34;</span><span style="color:#000;font-weight:bold">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#204a87;font-weight:bold">&#34;duration_milliseconds&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#0000cf;font-weight:bold">3000</span>
 </span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">}</span>
 </span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">}</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">]</span>
 </span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
-</span></span></code></pre></div><table>
-	<thead>
-			<tr>
-					<th>Name</th>
-					<th>Required</th>
-					<th>Description</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td><code>id</code></td>
-					<td><strong>Required</strong></td>
-					<td>Specify an unique string for your notification message</td>
-			</tr>
-			<tr>
-					<td><code>text</code></td>
-					<td><strong>Required</strong></td>
-					<td>Message body</td>
-			</tr>
-	</tbody>
+</span></span></code></pre></div><table class="parameter-table">
+  <thead>
+    <tr><th>Name</th><th>Required</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+      <tr><td><code>id</code></td>
+          <td><strong>Required</strong></td>
+          <td>A unique identifier for the notification message.</td>
+      </tr>
+      <tr><td><code>text</code></td>
+          <td><strong>Required</strong></td>
+          <td>The notification message to display.</td>
+      </tr>
+      <tr><td><code>duration_milliseconds</code></td>
+          <td>Optional</td>
+          <td>If specified, the notification message is dismissed after the specified number of milliseconds.<br /><span class="text-body-secondary">(Available since Karabiner-Elements 16.1.18)</span></td>
+      </tr>
+  </tbody>
 </table>
+
 <div class="alert alert-danger" role="alert"><div class="h4 alert-heading" role="heading">Important</div>
 <p>Do not forget to remove the notification message.</p>
 </div>
@@ -810,7 +814,7 @@ Examples Show the notification message while you press right shift key.
 </div>
 
 	<div class="td-page-meta__lastmod">
-    Last modified: 2026-02-07
+    Last modified: 2026-08-12
       <a href="https://github.com/pqrs-org/pqrs.org/blob/main/sites/karabiner-elements/content/en/docs/json/complex-modifications-manipulator-definition/to/set-notification-message/index.md?plain=1" target="_blank" rel="noopener">
         <i class="fab fa-github ms-1"></i>
         Markdown

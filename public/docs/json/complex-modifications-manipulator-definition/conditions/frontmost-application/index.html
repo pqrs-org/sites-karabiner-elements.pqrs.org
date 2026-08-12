@@ -11,25 +11,25 @@
 <title>frontmost_application_if, frontmost_application_unless | Karabiner-Elements</title>
 <meta name="description" content="Change an event if/unless the frontmost application is the specified application.
 Example Change control-h key to delete_or_backspace except in Terminal.
-💡 How to use this example { &#34;description&#34;: &#34;Change control-h to delete_or_backspace except in Terminal&#34;, &#34;manipulators&#34;: [ { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;h&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: [&#34;control&#34;], &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;key_code&#34;: &#34;delete_or_backspace&#34; }], &#34;conditions&#34;: [ { &#34;type&#34;: &#34;frontmost_application_unless&#34;, &#34;bundle_identifiers&#34;: [&#34;^com\\.apple\\.Terminal$&#34;] } ] } ] } Specification { &#34;type&#34;: &#34;frontmost_application_if&#34;, &#34;bundle_identifiers&#34;: [ bundle identifier regex, bundle identifier regex, ... ], &#34;file_paths&#34;: [ file path regex, file path regex, ... ] } Name Required Description type Required &#34;frontmost_application_if&#34; or &#34;frontmost_application_unless&#34; bundle_identifiers Optional Bundle identifier regexs such as [&#34;^com\\.apple\\.Terminal$&#34;, &#34;^com\\.googlecode\\.iterm2$&#34;] file_paths Optional File path regexs such as [&#34;/Finder$&#34;] description Optional A human-readable comment Multiple bundle identifiers or file paths Multiple entries in bundle_identifiers and file_paths are joined by “or”.">
+💡 How to use this example { &#34;description&#34;: &#34;Change control-h to delete_or_backspace except in Terminal&#34;, &#34;manipulators&#34;: [ { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;h&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: [&#34;control&#34;], &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;key_code&#34;: &#34;delete_or_backspace&#34; }], &#34;conditions&#34;: [ { &#34;type&#34;: &#34;frontmost_application_unless&#34;, &#34;bundle_identifiers&#34;: [&#34;^com\\.apple\\.Terminal$&#34;] } ] } ] } Specification { &#34;type&#34;: &#34;frontmost_application_if&#34;, &#34;bundle_identifiers&#34;: [ bundle identifier regex, bundle identifier regex, ... ], &#34;file_paths&#34;: [ file path regex, file path regex, ... ] } NameRequiredDescription type Required &#34;frontmost_application_if&#34; or &#34;frontmost_application_unless&#34; bundle_identifiers Optional Bundle identifier regexs such as [&#34;^com\\.apple\\.Terminal$&#34;, &#34;^com\\.googlecode\\.iterm2$&#34;] file_paths Optional File path regexs such as [&#34;/Finder$&#34;] description Optional A human-readable comment Multiple bundle identifiers or file paths Multiple entries in bundle_identifiers and file_paths are joined by “or”.">
 <meta property="og:url" content="/docs/json/complex-modifications-manipulator-definition/conditions/frontmost-application/">
 	<meta property="og:site_name" content="Karabiner-Elements">
 	<meta property="og:title" content="frontmost_application_if, frontmost_application_unless">
 	<meta property="og:description" content="Change an event if/unless the frontmost application is the specified application.
 Example Change control-h key to delete_or_backspace except in Terminal.
-💡 How to use this example { &#34;description&#34;: &#34;Change control-h to delete_or_backspace except in Terminal&#34;, &#34;manipulators&#34;: [ { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;h&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: [&#34;control&#34;], &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;key_code&#34;: &#34;delete_or_backspace&#34; }], &#34;conditions&#34;: [ { &#34;type&#34;: &#34;frontmost_application_unless&#34;, &#34;bundle_identifiers&#34;: [&#34;^com\\.apple\\.Terminal$&#34;] } ] } ] } Specification { &#34;type&#34;: &#34;frontmost_application_if&#34;, &#34;bundle_identifiers&#34;: [ bundle identifier regex, bundle identifier regex, ... ], &#34;file_paths&#34;: [ file path regex, file path regex, ... ] } Name Required Description type Required &#34;frontmost_application_if&#34; or &#34;frontmost_application_unless&#34; bundle_identifiers Optional Bundle identifier regexs such as [&#34;^com\\.apple\\.Terminal$&#34;, &#34;^com\\.googlecode\\.iterm2$&#34;] file_paths Optional File path regexs such as [&#34;/Finder$&#34;] description Optional A human-readable comment Multiple bundle identifiers or file paths Multiple entries in bundle_identifiers and file_paths are joined by “or”.">
+💡 How to use this example { &#34;description&#34;: &#34;Change control-h to delete_or_backspace except in Terminal&#34;, &#34;manipulators&#34;: [ { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;h&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: [&#34;control&#34;], &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;key_code&#34;: &#34;delete_or_backspace&#34; }], &#34;conditions&#34;: [ { &#34;type&#34;: &#34;frontmost_application_unless&#34;, &#34;bundle_identifiers&#34;: [&#34;^com\\.apple\\.Terminal$&#34;] } ] } ] } Specification { &#34;type&#34;: &#34;frontmost_application_if&#34;, &#34;bundle_identifiers&#34;: [ bundle identifier regex, bundle identifier regex, ... ], &#34;file_paths&#34;: [ file path regex, file path regex, ... ] } NameRequiredDescription type Required &#34;frontmost_application_if&#34; or &#34;frontmost_application_unless&#34; bundle_identifiers Optional Bundle identifier regexs such as [&#34;^com\\.apple\\.Terminal$&#34;, &#34;^com\\.googlecode\\.iterm2$&#34;] file_paths Optional File path regexs such as [&#34;/Finder$&#34;] description Optional A human-readable comment Multiple bundle identifiers or file paths Multiple entries in bundle_identifiers and file_paths are joined by “or”.">
 	<meta property="og:locale" content="en">
 	<meta property="og:type" content="article">
 		<meta property="article:section" content="docs">
-		<meta property="article:modified_time" content="2026-02-07T18:55:06+09:00">
+		<meta property="article:modified_time" content="2026-08-12T22:39:21+09:00">
 		<meta property="og:image" content="https://karabiner-elements.pqrs.org/images/logo.png">
 <meta itemprop="name" content="frontmost_application_if, frontmost_application_unless">
 <meta itemprop="description" content="Change an event if/unless the frontmost application is the specified application.
 Example Change control-h key to delete_or_backspace except in Terminal.
-💡 How to use this example { &#34;description&#34;: &#34;Change control-h to delete_or_backspace except in Terminal&#34;, &#34;manipulators&#34;: [ { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;h&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: [&#34;control&#34;], &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;key_code&#34;: &#34;delete_or_backspace&#34; }], &#34;conditions&#34;: [ { &#34;type&#34;: &#34;frontmost_application_unless&#34;, &#34;bundle_identifiers&#34;: [&#34;^com\\.apple\\.Terminal$&#34;] } ] } ] } Specification { &#34;type&#34;: &#34;frontmost_application_if&#34;, &#34;bundle_identifiers&#34;: [ bundle identifier regex, bundle identifier regex, ... ], &#34;file_paths&#34;: [ file path regex, file path regex, ... ] } Name Required Description type Required &#34;frontmost_application_if&#34; or &#34;frontmost_application_unless&#34; bundle_identifiers Optional Bundle identifier regexs such as [&#34;^com\\.apple\\.Terminal$&#34;, &#34;^com\\.googlecode\\.iterm2$&#34;] file_paths Optional File path regexs such as [&#34;/Finder$&#34;] description Optional A human-readable comment Multiple bundle identifiers or file paths Multiple entries in bundle_identifiers and file_paths are joined by “or”.">
+💡 How to use this example { &#34;description&#34;: &#34;Change control-h to delete_or_backspace except in Terminal&#34;, &#34;manipulators&#34;: [ { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;h&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: [&#34;control&#34;], &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;key_code&#34;: &#34;delete_or_backspace&#34; }], &#34;conditions&#34;: [ { &#34;type&#34;: &#34;frontmost_application_unless&#34;, &#34;bundle_identifiers&#34;: [&#34;^com\\.apple\\.Terminal$&#34;] } ] } ] } Specification { &#34;type&#34;: &#34;frontmost_application_if&#34;, &#34;bundle_identifiers&#34;: [ bundle identifier regex, bundle identifier regex, ... ], &#34;file_paths&#34;: [ file path regex, file path regex, ... ] } NameRequiredDescription type Required &#34;frontmost_application_if&#34; or &#34;frontmost_application_unless&#34; bundle_identifiers Optional Bundle identifier regexs such as [&#34;^com\\.apple\\.Terminal$&#34;, &#34;^com\\.googlecode\\.iterm2$&#34;] file_paths Optional File path regexs such as [&#34;/Finder$&#34;] description Optional A human-readable comment Multiple bundle identifiers or file paths Multiple entries in bundle_identifiers and file_paths are joined by “or”.">
 
-<meta itemprop="dateModified" content="2026-02-07T18:55:06&#43;09:00">
-<meta itemprop="wordCount" content="205">
+<meta itemprop="dateModified" content="2026-08-12T22:39:21&#43;09:00">
+<meta itemprop="wordCount" content="203">
 <meta itemprop="image" content="https://karabiner-elements.pqrs.org/images/logo.png">
 
 	<meta name="twitter:card" content="summary_large_image">
@@ -37,9 +37,9 @@ Example Change control-h key to delete_or_backspace except in Terminal.
 	<meta name="twitter:title" content="frontmost_application_if, frontmost_application_unless">
 	<meta name="twitter:description" content="Change an event if/unless the frontmost application is the specified application.
 Example Change control-h key to delete_or_backspace except in Terminal.
-💡 How to use this example { &#34;description&#34;: &#34;Change control-h to delete_or_backspace except in Terminal&#34;, &#34;manipulators&#34;: [ { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;h&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: [&#34;control&#34;], &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;key_code&#34;: &#34;delete_or_backspace&#34; }], &#34;conditions&#34;: [ { &#34;type&#34;: &#34;frontmost_application_unless&#34;, &#34;bundle_identifiers&#34;: [&#34;^com\\.apple\\.Terminal$&#34;] } ] } ] } Specification { &#34;type&#34;: &#34;frontmost_application_if&#34;, &#34;bundle_identifiers&#34;: [ bundle identifier regex, bundle identifier regex, ... ], &#34;file_paths&#34;: [ file path regex, file path regex, ... ] } Name Required Description type Required &#34;frontmost_application_if&#34; or &#34;frontmost_application_unless&#34; bundle_identifiers Optional Bundle identifier regexs such as [&#34;^com\\.apple\\.Terminal$&#34;, &#34;^com\\.googlecode\\.iterm2$&#34;] file_paths Optional File path regexs such as [&#34;/Finder$&#34;] description Optional A human-readable comment Multiple bundle identifiers or file paths Multiple entries in bundle_identifiers and file_paths are joined by “or”.">
-<link rel="preload" href="/scss/main.min.bb2262ef200e35d740ee51b849ea686ec3b9655b33c72c6589fed4654fc5c1d8.css" as="style" integrity="sha256-uyJi7yAONddA7lG4SepobsO5ZVszxyxlif7UZU/Fwdg=" crossorigin="anonymous">
-<link href="/scss/main.min.bb2262ef200e35d740ee51b849ea686ec3b9655b33c72c6589fed4654fc5c1d8.css" rel="stylesheet" integrity="sha256-uyJi7yAONddA7lG4SepobsO5ZVszxyxlif7UZU/Fwdg=" crossorigin="anonymous">
+💡 How to use this example { &#34;description&#34;: &#34;Change control-h to delete_or_backspace except in Terminal&#34;, &#34;manipulators&#34;: [ { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;h&#34;, &#34;modifiers&#34;: { &#34;mandatory&#34;: [&#34;control&#34;], &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;key_code&#34;: &#34;delete_or_backspace&#34; }], &#34;conditions&#34;: [ { &#34;type&#34;: &#34;frontmost_application_unless&#34;, &#34;bundle_identifiers&#34;: [&#34;^com\\.apple\\.Terminal$&#34;] } ] } ] } Specification { &#34;type&#34;: &#34;frontmost_application_if&#34;, &#34;bundle_identifiers&#34;: [ bundle identifier regex, bundle identifier regex, ... ], &#34;file_paths&#34;: [ file path regex, file path regex, ... ] } NameRequiredDescription type Required &#34;frontmost_application_if&#34; or &#34;frontmost_application_unless&#34; bundle_identifiers Optional Bundle identifier regexs such as [&#34;^com\\.apple\\.Terminal$&#34;, &#34;^com\\.googlecode\\.iterm2$&#34;] file_paths Optional File path regexs such as [&#34;/Finder$&#34;] description Optional A human-readable comment Multiple bundle identifiers or file paths Multiple entries in bundle_identifiers and file_paths are joined by “or”.">
+<link rel="preload" href="/scss/main.min.65a9afd2071342a4736f293180380f134052e6370a114deaf11ca9919554509a.css" as="style" integrity="sha256-Zamv0gcTQqRzbykxgDgPE0BS5jcKEU3q8RypkZVUUJo=" crossorigin="anonymous">
+<link href="/scss/main.min.65a9afd2071342a4736f293180380f134052e6370a114deaf11ca9919554509a.css" rel="stylesheet" integrity="sha256-Zamv0gcTQqRzbykxgDgPE0BS5jcKEU3q8RypkZVUUJo=" crossorigin="anonymous">
 <script
   src="https://code.jquery.com/jquery-3.7.1.min.js"
   integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
@@ -75,7 +75,7 @@ Example Change control-h key to delete_or_backspace except in Terminal.
     aria-label='Search this site…'
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.b6481294947426b922214661c86d1bd3.json"
+    data-offline-search-index-json-src="/offline-search-index.ae0fc8253664388238bf5fb9949a5e0b.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="25"
   >
@@ -100,7 +100,7 @@ Example Change control-h key to delete_or_backspace except in Terminal.
     aria-label='Search this site…'
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.b6481294947426b922214661c86d1bd3.json"
+    data-offline-search-index-json-src="/offline-search-index.ae0fc8253664388238bf5fb9949a5e0b.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="25"
   >
@@ -769,37 +769,30 @@ Example Change control-h key to delete_or_backspace except in Terminal.
 </span></span><span style="display:flex;"><span>        <span style="color:#a40000">...</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">]</span>
 </span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
-</span></span></code></pre></div><table>
-	<thead>
-			<tr>
-					<th>Name</th>
-					<th>Required</th>
-					<th>Description</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td><code>type</code></td>
-					<td><strong>Required</strong></td>
-					<td><code>&quot;frontmost_application_if&quot;</code> or <code>&quot;frontmost_application_unless&quot;</code></td>
-			</tr>
-			<tr>
-					<td><code>bundle_identifiers</code></td>
-					<td>Optional</td>
-					<td>Bundle identifier regexs such as <code>[&quot;^com\\.apple\\.Terminal$&quot;, &quot;^com\\.googlecode\\.iterm2$&quot;]</code></td>
-			</tr>
-			<tr>
-					<td><code>file_paths</code></td>
-					<td>Optional</td>
-					<td>File path regexs such as <code>[&quot;/Finder$&quot;]</code></td>
-			</tr>
-			<tr>
-					<td><code>description</code></td>
-					<td>Optional</td>
-					<td>A human-readable comment</td>
-			</tr>
-	</tbody>
+</span></span></code></pre></div><table class="parameter-table">
+  <thead>
+    <tr><th>Name</th><th>Required</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+      <tr><td><code>type</code></td>
+          <td><strong>Required</strong></td>
+          <td><code>&quot;frontmost_application_if&quot;</code> or <code>&quot;frontmost_application_unless&quot;</code></td>
+      </tr>
+      <tr><td><code>bundle_identifiers</code></td>
+          <td>Optional</td>
+          <td>Bundle identifier regexs such as <code>[&quot;^com\\.apple\\.Terminal$&quot;, &quot;^com\\.googlecode\\.iterm2$&quot;]</code></td>
+      </tr>
+      <tr><td><code>file_paths</code></td>
+          <td>Optional</td>
+          <td>File path regexs such as <code>[&quot;/Finder$&quot;]</code></td>
+      </tr>
+      <tr><td><code>description</code></td>
+          <td>Optional</td>
+          <td>A human-readable comment</td>
+      </tr>
+  </tbody>
 </table>
+
 <h3 id="multiple-bundle-identifiers-or-file-paths">Multiple bundle identifiers or file paths</h3>
 <p>Multiple entries in <code>bundle_identifiers</code> and <code>file_paths</code> are joined by &ldquo;or&rdquo;.</p>
 <p>The following condition is matched if bundle identifier is &ldquo;com.apple.Terminal&rdquo; <strong>or</strong> &ldquo;com.googlecode.iterm2&rdquo;.</p>
@@ -823,7 +816,7 @@ Example Change control-h key to delete_or_backspace except in Terminal.
 
 
 	<div class="td-page-meta__lastmod">
-    Last modified: 2026-02-07
+    Last modified: 2026-08-12
       <a href="https://github.com/pqrs-org/pqrs.org/blob/main/sites/karabiner-elements/content/en/docs/json/complex-modifications-manipulator-definition/conditions/frontmost-application/index.md?plain=1" target="_blank" rel="noopener">
         <i class="fab fa-github ms-1"></i>
         Markdown

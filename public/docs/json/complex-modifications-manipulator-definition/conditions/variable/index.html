@@ -21,15 +21,15 @@ Example Pressing the a key while holding the escape key launches Activity Monito
 	<meta property="og:locale" content="en">
 	<meta property="og:type" content="article">
 		<meta property="article:section" content="docs">
-		<meta property="article:modified_time" content="2026-04-08T09:07:51+09:00">
+		<meta property="article:modified_time" content="2026-08-12T22:39:21+09:00">
 		<meta property="og:image" content="https://karabiner-elements.pqrs.org/images/logo.png">
 <meta itemprop="name" content="variable_if, variable_unless">
 <meta itemprop="description" content="Change an event if/unless the variable is the specified value.
 Example Pressing the a key while holding the escape key launches Activity Monitor.
 💡 How to use this example { &#34;description&#34;: &#34;Pressing the a key while holding the escape key launches Activity Monitor&#34;, &#34;manipulators&#34;: [ { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;escape&#34;, &#34;modifiers&#34;: { &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [ { &#34;set_variable&#34;: { &#34;name&#34;: &#34;escape_pressed&#34;, &#34;value&#34;: true, &#34;key_up_value&#34;: false } } ], &#34;to_if_alone&#34;: [{ &#34;key_code&#34;: &#34;escape&#34; }] }, { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;a&#34;, &#34;modifiers&#34;: { &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [ { &#34;software_function&#34;: { &#34;open_application&#34;: { &#34;bundle_identifier&#34;: &#34;com.apple.ActivityMonitor&#34; } } } ], &#34;conditions&#34;: [ { &#34;type&#34;: &#34;variable_if&#34;, &#34;name&#34;: &#34;escape_pressed&#34;, &#34;value&#34;: true } ] } ] } Specification Tip variable_if and variable_unless are designed to be used with the following features:">
 
-<meta itemprop="dateModified" content="2026-04-08T09:07:51&#43;09:00">
-<meta itemprop="wordCount" content="409">
+<meta itemprop="dateModified" content="2026-08-12T22:39:21&#43;09:00">
+<meta itemprop="wordCount" content="424">
 <meta itemprop="image" content="https://karabiner-elements.pqrs.org/images/logo.png">
 
 	<meta name="twitter:card" content="summary_large_image">
@@ -38,8 +38,8 @@ Example Pressing the a key while holding the escape key launches Activity Monito
 	<meta name="twitter:description" content="Change an event if/unless the variable is the specified value.
 Example Pressing the a key while holding the escape key launches Activity Monitor.
 💡 How to use this example { &#34;description&#34;: &#34;Pressing the a key while holding the escape key launches Activity Monitor&#34;, &#34;manipulators&#34;: [ { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;escape&#34;, &#34;modifiers&#34;: { &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [ { &#34;set_variable&#34;: { &#34;name&#34;: &#34;escape_pressed&#34;, &#34;value&#34;: true, &#34;key_up_value&#34;: false } } ], &#34;to_if_alone&#34;: [{ &#34;key_code&#34;: &#34;escape&#34; }] }, { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;a&#34;, &#34;modifiers&#34;: { &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [ { &#34;software_function&#34;: { &#34;open_application&#34;: { &#34;bundle_identifier&#34;: &#34;com.apple.ActivityMonitor&#34; } } } ], &#34;conditions&#34;: [ { &#34;type&#34;: &#34;variable_if&#34;, &#34;name&#34;: &#34;escape_pressed&#34;, &#34;value&#34;: true } ] } ] } Specification Tip variable_if and variable_unless are designed to be used with the following features:">
-<link rel="preload" href="/scss/main.min.bb2262ef200e35d740ee51b849ea686ec3b9655b33c72c6589fed4654fc5c1d8.css" as="style" integrity="sha256-uyJi7yAONddA7lG4SepobsO5ZVszxyxlif7UZU/Fwdg=" crossorigin="anonymous">
-<link href="/scss/main.min.bb2262ef200e35d740ee51b849ea686ec3b9655b33c72c6589fed4654fc5c1d8.css" rel="stylesheet" integrity="sha256-uyJi7yAONddA7lG4SepobsO5ZVszxyxlif7UZU/Fwdg=" crossorigin="anonymous">
+<link rel="preload" href="/scss/main.min.65a9afd2071342a4736f293180380f134052e6370a114deaf11ca9919554509a.css" as="style" integrity="sha256-Zamv0gcTQqRzbykxgDgPE0BS5jcKEU3q8RypkZVUUJo=" crossorigin="anonymous">
+<link href="/scss/main.min.65a9afd2071342a4736f293180380f134052e6370a114deaf11ca9919554509a.css" rel="stylesheet" integrity="sha256-Zamv0gcTQqRzbykxgDgPE0BS5jcKEU3q8RypkZVUUJo=" crossorigin="anonymous">
 <script
   src="https://code.jquery.com/jquery-3.7.1.min.js"
   integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
@@ -75,7 +75,7 @@ Example Pressing the a key while holding the escape key launches Activity Monito
     aria-label='Search this site…'
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.b6481294947426b922214661c86d1bd3.json"
+    data-offline-search-index-json-src="/offline-search-index.ae0fc8253664388238bf5fb9949a5e0b.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="25"
   >
@@ -100,7 +100,7 @@ Example Pressing the a key while holding the escape key launches Activity Monito
     aria-label='Search this site…'
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.b6481294947426b922214661c86d1bd3.json"
+    data-offline-search-index-json-src="/offline-search-index.ae0fc8253664388238bf5fb9949a5e0b.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="25"
   >
@@ -793,64 +793,48 @@ Example Pressing the a key while holding the escape key launches Activity Monito
 </span></span><span style="display:flex;"><span>    <span style="color:#204a87;font-weight:bold">&#34;name&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;variable name&#34;</span><span style="color:#000;font-weight:bold">,</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#204a87;font-weight:bold">&#34;value&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#a40000">variable</span> <span style="color:#a40000">value</span>
 </span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
-</span></span></code></pre></div><table>
-	<thead>
-			<tr>
-					<th>Name</th>
-					<th>Required</th>
-					<th>Description</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td><code>type</code></td>
-					<td><strong>Required</strong></td>
-					<td><code>&quot;variable_if&quot;</code> or <code>&quot;variable_unless&quot;</code>.</td>
-			</tr>
-			<tr>
-					<td><code>name</code></td>
-					<td><strong>Required</strong></td>
-					<td>Target variable name.</td>
-			</tr>
-			<tr>
-					<td><code>value</code></td>
-					<td><strong>Required</strong></td>
-					<td>Target variable value.</td>
-			</tr>
-			<tr>
-					<td><code>description</code></td>
-					<td>Optional</td>
-					<td>A human-readable comment</td>
-			</tr>
-	</tbody>
+</span></span></code></pre></div><table class="parameter-table">
+  <thead>
+    <tr><th>Name</th><th>Required</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+      <tr><td><code>type</code></td>
+          <td><strong>Required</strong></td>
+          <td><code>&quot;variable_if&quot;</code> or <code>&quot;variable_unless&quot;</code>.</td>
+      </tr>
+      <tr><td><code>name</code></td>
+          <td><strong>Required</strong></td>
+          <td>Target variable name.</td>
+      </tr>
+      <tr><td><code>value</code></td>
+          <td><strong>Required</strong></td>
+          <td>Target variable value.</td>
+      </tr>
+      <tr><td><code>description</code></td>
+          <td>Optional</td>
+          <td>A human-readable comment</td>
+      </tr>
+  </tbody>
 </table>
+
 <h3 id="available-types-of-value">Available types of <code>value</code></h3>
-<table>
-	<thead>
-			<tr>
-					<th>Type</th>
-					<th>Example value</th>
-					<th>Available since</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>integer</td>
-					<td>0,1,2,&hellip;</td>
-					<td>Karabiner-Elements 11.0.0</td>
-			</tr>
-			<tr>
-					<td>boolean</td>
-					<td>true, false</td>
-					<td>Karabiner-Elements 14.4.20</td>
-			</tr>
-			<tr>
-					<td>string</td>
-					<td>&ldquo;layer1&rdquo;, &ldquo;layer2&rdquo;</td>
-					<td>Karabiner-Elements 14.4.20</td>
-			</tr>
-	</tbody>
+<table class="parameter-table">
+  <thead>
+    <tr><th>Type</th><th>Example value</th></tr>
+  </thead>
+  <tbody>
+      <tr><td>integer</td>
+          <td>0,1,2,&hellip;<br /><span class="text-body-secondary">(Available since Karabiner-Elements 11.0.0)</span></td>
+      </tr>
+      <tr><td>boolean</td>
+          <td>true, false<br /><span class="text-body-secondary">(Available since Karabiner-Elements 14.4.20)</span></td>
+      </tr>
+      <tr><td>string</td>
+          <td>&ldquo;layer1&rdquo;, &ldquo;layer2&rdquo;<br /><span class="text-body-secondary">(Available since Karabiner-Elements 14.4.20)</span></td>
+      </tr>
+  </tbody>
 </table>
+
 <div class="alert alert-warning" role="alert"><div class="h4 alert-heading" role="heading">Comparison between different types</div>
 <p>Whenever the type of <code>value</code> is different, it is treated as having different contents.</p>
 <ul>
@@ -874,102 +858,72 @@ Example Pressing the a key while holding the escape key launches Activity Monito
 
 <h2 id="system-variables">System variables</h2>
 <p>The system variables are automatically set by Karabiner-Elements.</p>
-<table>
-	<thead>
-			<tr>
-					<th>Name</th>
-					<th>Type</th>
-					<th>Data source</th>
-					<th>Available since</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td><code>system.scroll_direction_is_natural</code></td>
-					<td>boolean</td>
-					<td>The scroll direction setting of mouse in System Settings</td>
-					<td>Karabiner-Elements 15.2.3</td>
-			</tr>
-			<tr>
-					<td><code>system.use_fkeys_as_standard_function_keys</code></td>
-					<td>boolean</td>
-					<td>The &ldquo;Use all F1, F2, etc. keys as standard function keys&rdquo; setting in System Settings</td>
-					<td>Karabiner-Elements 15.2.3</td>
-			</tr>
-			<tr>
-					<td><code>system.now.milliseconds</code></td>
-					<td>integer</td>
-					<td>The current UNIX time in milliseconds</td>
-					<td>Karabiner-Elements 15.5.19</td>
-			</tr>
-			<tr>
-					<td><code>system.temporarily_ignore_all_devices</code></td>
-					<td>boolean</td>
-					<td>True when &ldquo;Temporarily turns off all Karabiner-Elements modifications&rdquo; is enabled in EventViewer</td>
-					<td>Karabiner-Elements 15.5.91</td>
-			</tr>
-	</tbody>
+<table class="parameter-table">
+  <thead>
+    <tr><th>Name</th><th>Type</th><th>Data source</th></tr>
+  </thead>
+  <tbody>
+      <tr><td><code>system.scroll_direction_is_natural</code></td>
+          <td>boolean</td>
+          <td>The scroll direction setting of mouse in System Settings<br /><span class="text-body-secondary">(Available since Karabiner-Elements 15.2.3)</span></td>
+      </tr>
+      <tr><td><code>system.use_fkeys_as_standard_function_keys</code></td>
+          <td>boolean</td>
+          <td>The &ldquo;Use all F1, F2, etc. keys as standard function keys&rdquo; setting in System Settings<br /><span class="text-body-secondary">(Available since Karabiner-Elements 15.2.3)</span></td>
+      </tr>
+      <tr><td><code>system.now.milliseconds</code></td>
+          <td>integer</td>
+          <td>The current UNIX time in milliseconds<br /><span class="text-body-secondary">(Available since Karabiner-Elements 15.5.19)</span></td>
+      </tr>
+      <tr><td><code>system.temporarily_ignore_all_devices</code></td>
+          <td>boolean</td>
+          <td>True when &ldquo;Temporarily turns off all Karabiner-Elements modifications&rdquo; is enabled in EventViewer<br /><span class="text-body-secondary">(Available since Karabiner-Elements 15.5.91)</span></td>
+      </tr>
+  </tbody>
 </table>
+
 <h2 id="accessibility-variables">Accessibility variables</h2>
 <p>Information about the Focused UI Element obtained through the Accessibility API is automatically set by Karabiner-Elements.
 You can use these variables to <a href="/docs/json/typical-complex-modifications-examples/#open-files-in-finder-using-the-return-key">modify behavior only unless an input field is focused</a>, for example.</p>
-<table>
-	<thead>
-			<tr>
-					<th>Name</th>
-					<th>Type</th>
-					<th>Data source</th>
-					<th>Available since</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td><code>accessibility.focused_ui_element.role_string</code></td>
-					<td>string</td>
-					<td>kAXRoleAttribute</td>
-					<td>Karabiner-Elements 15.90.22</td>
-			</tr>
-			<tr>
-					<td><code>accessibility.focused_ui_element.subrole_string</code></td>
-					<td>string</td>
-					<td>kAXSubroleAttribute</td>
-					<td>Karabiner-Elements 15.90.22</td>
-			</tr>
-			<tr>
-					<td><code>accessibility.focused_ui_element.title_string</code></td>
-					<td>string</td>
-					<td>kAXTitleAttribute</td>
-					<td>Karabiner-Elements 15.90.22</td>
-			</tr>
-			<tr>
-					<td><code>accessibility.focused_ui_element.window_position_x</code></td>
-					<td>integer</td>
-					<td>kAXWindowAttribute or kAXFocusedWindowAttribute</td>
-					<td>Karabiner-Elements 15.90.17</td>
-			</tr>
-			<tr>
-					<td><code>accessibility.focused_ui_element.window_position_y</code></td>
-					<td>integer</td>
-					<td>kAXWindowAttribute or kAXFocusedWindowAttribute</td>
-					<td>Karabiner-Elements 15.90.17</td>
-			</tr>
-			<tr>
-					<td><code>accessibility.focused_ui_element.window_size_height</code></td>
-					<td>integer</td>
-					<td>kAXWindowAttribute or kAXFocusedWindowAttribute</td>
-					<td>Karabiner-Elements 15.90.17</td>
-			</tr>
-			<tr>
-					<td><code>accessibility.focused_ui_element.window_size_width</code></td>
-					<td>integer</td>
-					<td>kAXWindowAttribute or kAXFocusedWindowAttribute</td>
-					<td>Karabiner-Elements 15.90.17</td>
-			</tr>
-	</tbody>
+<table class="parameter-table">
+  <thead>
+    <tr><th>Name</th><th>Type</th><th>Data source</th></tr>
+  </thead>
+  <tbody>
+      <tr><td><code>accessibility.focused_ui_element.role_string</code></td>
+          <td>string</td>
+          <td>kAXRoleAttribute<br /><span class="text-body-secondary">(Available since Karabiner-Elements 15.90.22)</span></td>
+      </tr>
+      <tr><td><code>accessibility.focused_ui_element.subrole_string</code></td>
+          <td>string</td>
+          <td>kAXSubroleAttribute<br /><span class="text-body-secondary">(Available since Karabiner-Elements 15.90.22)</span></td>
+      </tr>
+      <tr><td><code>accessibility.focused_ui_element.title_string</code></td>
+          <td>string</td>
+          <td>kAXTitleAttribute<br /><span class="text-body-secondary">(Available since Karabiner-Elements 15.90.22)</span></td>
+      </tr>
+      <tr><td><code>accessibility.focused_ui_element.window_position_x</code></td>
+          <td>integer</td>
+          <td>kAXWindowAttribute or kAXFocusedWindowAttribute<br /><span class="text-body-secondary">(Available since Karabiner-Elements 15.90.17)</span></td>
+      </tr>
+      <tr><td><code>accessibility.focused_ui_element.window_position_y</code></td>
+          <td>integer</td>
+          <td>kAXWindowAttribute or kAXFocusedWindowAttribute<br /><span class="text-body-secondary">(Available since Karabiner-Elements 15.90.17)</span></td>
+      </tr>
+      <tr><td><code>accessibility.focused_ui_element.window_size_height</code></td>
+          <td>integer</td>
+          <td>kAXWindowAttribute or kAXFocusedWindowAttribute<br /><span class="text-body-secondary">(Available since Karabiner-Elements 15.90.17)</span></td>
+      </tr>
+      <tr><td><code>accessibility.focused_ui_element.window_size_width</code></td>
+          <td>integer</td>
+          <td>kAXWindowAttribute or kAXFocusedWindowAttribute<br /><span class="text-body-secondary">(Available since Karabiner-Elements 15.90.17)</span></td>
+      </tr>
+  </tbody>
 </table>
 
+
 	<div class="td-page-meta__lastmod">
-    Last modified: 2026-04-08
+    Last modified: 2026-08-12
       <a href="https://github.com/pqrs-org/pqrs.org/blob/main/sites/karabiner-elements/content/en/docs/json/complex-modifications-manipulator-definition/conditions/variable/index.md?plain=1" target="_blank" rel="noopener">
         <i class="fab fa-github ms-1"></i>
         Markdown

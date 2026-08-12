@@ -23,7 +23,7 @@ Only use it if you absolutely must trigger double-click events without sending r
 	<meta property="og:locale" content="en">
 	<meta property="og:type" content="article">
 		<meta property="article:section" content="docs">
-		<meta property="article:modified_time" content="2026-02-07T18:55:06+09:00">
+		<meta property="article:modified_time" content="2026-08-12T22:39:21+09:00">
 		<meta property="og:image" content="https://karabiner-elements.pqrs.org/images/logo.png">
 <meta itemprop="name" content="cg_event_double_click">
 <meta itemprop="description" content="Send double click event by software. cg_event_double_click ensures that the click event occurs at the same location even if the mouse cursor is moving between the first click and the second click.
@@ -31,8 +31,8 @@ Low responsiveness This configuration is highly specific.
 This event will be lagged since it is sent by software implementation. It is better to send pointing_button::button1 twice instead of cg_event_double_click to get a better response.
 Only use it if you absolutely must trigger double-click events without sending regular button events.">
 
-<meta itemprop="dateModified" content="2026-02-07T18:55:06&#43;09:00">
-<meta itemprop="wordCount" content="260">
+<meta itemprop="dateModified" content="2026-08-12T22:39:21&#43;09:00">
+<meta itemprop="wordCount" content="258">
 <meta itemprop="image" content="https://karabiner-elements.pqrs.org/images/logo.png">
 
 	<meta name="twitter:card" content="summary_large_image">
@@ -42,8 +42,8 @@ Only use it if you absolutely must trigger double-click events without sending r
 Low responsiveness This configuration is highly specific.
 This event will be lagged since it is sent by software implementation. It is better to send pointing_button::button1 twice instead of cg_event_double_click to get a better response.
 Only use it if you absolutely must trigger double-click events without sending regular button events.">
-<link rel="preload" href="/scss/main.min.bb2262ef200e35d740ee51b849ea686ec3b9655b33c72c6589fed4654fc5c1d8.css" as="style" integrity="sha256-uyJi7yAONddA7lG4SepobsO5ZVszxyxlif7UZU/Fwdg=" crossorigin="anonymous">
-<link href="/scss/main.min.bb2262ef200e35d740ee51b849ea686ec3b9655b33c72c6589fed4654fc5c1d8.css" rel="stylesheet" integrity="sha256-uyJi7yAONddA7lG4SepobsO5ZVszxyxlif7UZU/Fwdg=" crossorigin="anonymous">
+<link rel="preload" href="/scss/main.min.65a9afd2071342a4736f293180380f134052e6370a114deaf11ca9919554509a.css" as="style" integrity="sha256-Zamv0gcTQqRzbykxgDgPE0BS5jcKEU3q8RypkZVUUJo=" crossorigin="anonymous">
+<link href="/scss/main.min.65a9afd2071342a4736f293180380f134052e6370a114deaf11ca9919554509a.css" rel="stylesheet" integrity="sha256-Zamv0gcTQqRzbykxgDgPE0BS5jcKEU3q8RypkZVUUJo=" crossorigin="anonymous">
 <script
   src="https://code.jquery.com/jquery-3.7.1.min.js"
   integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
@@ -79,7 +79,7 @@ Only use it if you absolutely must trigger double-click events without sending r
     aria-label='Search this site…'
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.b6481294947426b922214661c86d1bd3.json"
+    data-offline-search-index-json-src="/offline-search-index.ae0fc8253664388238bf5fb9949a5e0b.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="25"
   >
@@ -104,7 +104,7 @@ Only use it if you absolutely must trigger double-click events without sending r
     aria-label='Search this site…'
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.b6481294947426b922214661c86d1bd3.json"
+    data-offline-search-index-json-src="/offline-search-index.ae0fc8253664388238bf5fb9949a5e0b.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="25"
   >
@@ -800,22 +800,18 @@ It is better to send <code>pointing_button::button1</code> twice instead of <cod
 </span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">}</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">]</span>
 </span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
-</span></span></code></pre></div><table>
-	<thead>
-			<tr>
-					<th>Name</th>
-					<th>Required</th>
-					<th>Description</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td><code>button</code></td>
-					<td><strong>Required</strong></td>
-					<td>An integer of CGMouseButton.<br><br>0: Left Click<br>1: Right Click<br>2: Middle Click<br>3,4,5,&hellip;,31: Other Buttons</td>
-			</tr>
-	</tbody>
+</span></span></code></pre></div><table class="parameter-table">
+  <thead>
+    <tr><th>Name</th><th>Required</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+      <tr><td><code>button</code></td>
+          <td><strong>Required</strong></td>
+          <td>An integer of CGMouseButton.<br><br>0: Left Click<br>1: Right Click<br>2: Middle Click<br>3,4,5,&hellip;,31: Other Buttons</td>
+      </tr>
+  </tbody>
 </table>
+
 <div class="alert alert-primary" role="alert"><div class="h4 alert-heading" role="heading">Accessibility</div>
 <p><code>cg_event_double_click</code> uses the accessibility features.
 You have to allow <code>karabiner_console_user_server</code> in Privacy &amp; Security System Settings.</p>
@@ -829,7 +825,7 @@ You have to allow <code>karabiner_console_user_server</code> in Privacy &amp; Se
 </div>
 
 	<div class="td-page-meta__lastmod">
-    Last modified: 2026-02-07
+    Last modified: 2026-08-12
       <a href="https://github.com/pqrs-org/pqrs.org/blob/main/sites/karabiner-elements/content/en/docs/json/complex-modifications-manipulator-definition/to/software_function/cg_event_double_click/index.md?plain=1" target="_blank" rel="noopener">
         <i class="fab fa-github ms-1"></i>
         Markdown
