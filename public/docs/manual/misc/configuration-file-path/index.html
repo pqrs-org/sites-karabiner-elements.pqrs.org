@@ -23,7 +23,7 @@ Important Ensure you create a symbolic link to the ~/.config/karabiner directory
 	<meta property="og:locale" content="en">
 	<meta property="og:type" content="article">
 		<meta property="article:section" content="docs">
-		<meta property="article:modified_time" content="2026-05-09T12:38:04+09:00">
+		<meta property="article:modified_time" content="2026-08-30T16:20:25+09:00">
 		<meta property="og:image" content="https://karabiner-elements.pqrs.org/images/logo.png">
 <meta itemprop="name" content="The location of the configuration file">
 <meta itemprop="description" content="Karabiner-Elements stores the user configuration in a JSON file located at ~/.config/karabiner/karabiner.json.
@@ -31,8 +31,8 @@ However, you may want to place the configuration file elsewhere, for example, to
 In such cases, you can move the karabiner.json configuration file to a different directory by using a symbolic link.
 Important Ensure you create a symbolic link to the ~/.config/karabiner directory, not directly to the karabiner.json file.">
 
-<meta itemprop="dateModified" content="2026-05-09T12:38:04&#43;09:00">
-<meta itemprop="wordCount" content="297">
+<meta itemprop="dateModified" content="2026-08-30T16:20:25&#43;09:00">
+<meta itemprop="wordCount" content="308">
 <meta itemprop="image" content="https://karabiner-elements.pqrs.org/images/logo.png">
 
 	<meta name="twitter:card" content="summary_large_image">
@@ -79,7 +79,7 @@ Important Ensure you create a symbolic link to the ~/.config/karabiner directory
     aria-label='Search this site…'
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.97f6c4ca56854667c044b3deb093bc8c.json"
+    data-offline-search-index-json-src="/offline-search-index.43e48a0b7f49e93d78917847f7415695.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="25"
   >
@@ -104,7 +104,7 @@ Important Ensure you create a symbolic link to the ~/.config/karabiner directory
     aria-label='Search this site…'
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.97f6c4ca56854667c044b3deb093bc8c.json"
+    data-offline-search-index-json-src="/offline-search-index.43e48a0b7f49e93d78917847f7415695.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="25"
   >
@@ -285,10 +285,6 @@ Important Ensure you create a symbolic link to the ~/.config/karabiner directory
   </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docshelptroubleshootingdriver-alert-keeps-showing-up-li">
     <input type="checkbox" id="m-docshelptroubleshootingdriver-alert-keeps-showing-up-check"/>
     <label for="m-docshelptroubleshootingdriver-alert-keeps-showing-up-check"><a href="/docs/help/troubleshooting/driver-alert-keeps-showing-up/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docshelptroubleshootingdriver-alert-keeps-showing-up"><span class="">Driver alert keeps showing up</span></a></label>
-    
-  </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docshelptroubleshootingfumihiko-takayama-in-login-items-li">
-    <input type="checkbox" id="m-docshelptroubleshootingfumihiko-takayama-in-login-items-check"/>
-    <label for="m-docshelptroubleshootingfumihiko-takayama-in-login-items-check"><a href="/docs/help/troubleshooting/fumihiko-takayama-in-login-items/" class="align-left ps-0  td-sidebar-link td-sidebar-link__page" id="m-docshelptroubleshootingfumihiko-takayama-in-login-items"><span class="">&#34;Fumihiko Takayama&#34; is shown in Login Items</span></a></label>
     
   </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id="m-docshelptroubleshootingstopped-working-after-macos-update-li">
     <input type="checkbox" id="m-docshelptroubleshootingstopped-working-after-macos-update-check"/>
@@ -723,9 +719,10 @@ for example, to sync it automatically across multiple machines or to manage it u
 <div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>mkdir -p <span style="color:#4e9a06">&#34;</span><span style="color:#000">$HOME</span><span style="color:#4e9a06">/Library/Application Support/org.pqrs/config&#34;</span>
 </span></span><span style="display:flex;"><span>mv ~/.config/karabiner <span style="color:#4e9a06">&#34;</span><span style="color:#000">$HOME</span><span style="color:#4e9a06">/Library/Application Support/org.pqrs/config&#34;</span>
 </span></span><span style="display:flex;"><span>ln -s <span style="color:#4e9a06">&#34;</span><span style="color:#000">$HOME</span><span style="color:#4e9a06">/Library/Application Support/org.pqrs/config/karabiner&#34;</span> ~/.config
-</span></span></code></pre></div><p>After changing the actual location of <code>karabiner.json</code>, you need to restart <code>karabiner_console_user_server</code> by using the following command.
-Otherwise, Karabiner-Elements will not be able to automatically detect updates to <code>karabiner.json</code>.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>launchctl kickstart -k gui/<span style="color:#204a87;font-weight:bold">$(</span>id -u<span style="color:#204a87;font-weight:bold">)</span>/org.pqrs.service.agent.karabiner_console_user_server
+</span></span></code></pre></div><p>After changing the actual location of <code>karabiner.json</code>, run the following command once to restart <code>Karabiner-Console-User-Server</code>.
+This restart is required for Karabiner-Elements to begin monitoring <code>karabiner.json</code> at its new location.
+Until you restart it, changes to the file will not be detected automatically.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>launchctl kickstart -k gui/<span style="color:#204a87;font-weight:bold">$(</span>id -u<span style="color:#204a87;font-weight:bold">)</span>/org.pqrs.service.agent.Karabiner-Console-User-Server
 </span></span></code></pre></div><div class="alert alert-primary" role="alert"><div class="h4 alert-heading" role="heading">Tip</div>
 <p><a href="/docs/help/advanced-topics/set-environment-variables/">Setting the XDG_CONFIG_HOME environment variable</a> is another way to change the location of the configuration file.</p>
 </div>
@@ -735,9 +732,8 @@ Otherwise, Karabiner-Elements will not be able to automatically detect updates t
 such as the <code>Desktop</code>, <code>Documents</code>, <code>Downloads</code>, or some locations under <code>Library</code>, you will need to grant access permissions to the following applications.</p>
 <ul>
 <li><code>/Applications/Karabiner-Elements.app</code></li>
-<li><code>/Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_console_user_server</code></li>
+<li><code>/Library/Application Support/org.pqrs/Karabiner-Elements/Karabiner-Console-User-Server.app</code></li>
 <li><code>/Library/Application Support/org.pqrs/Karabiner-Elements/Karabiner-Core-Service.app</code></li>
-<li><code>/Library/Application Support/org.pqrs/Karabiner-Elements/Karabiner-Menu.app</code></li>
 </ul>
 <p>The most reliable approach is to grant Full Disk Access to these processes.</p>
 <p>To grant Full Disk Access to these processes,
@@ -746,7 +742,7 @@ navigate to <code>System Settings &gt; Privacy &amp; Security &gt; Full Disk Acc
 </div>
 
 	<div class="td-page-meta__lastmod">
-    Last modified: 2026-05-09
+    Last modified: 2026-08-30
       <a href="https://github.com/pqrs-org/pqrs.org/blob/main/sites/karabiner-elements/content/en/docs/manual/misc/configuration-file-path/index.md?plain=1" target="_blank" rel="noopener">
         <i class="fab fa-github ms-1"></i>
         Markdown
