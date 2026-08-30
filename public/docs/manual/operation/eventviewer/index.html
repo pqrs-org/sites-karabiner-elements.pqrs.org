@@ -19,14 +19,14 @@ Open Karabiner-EventViewer from Apps or Finder. Input events will be shown when 
 	<meta property="og:locale" content="en">
 	<meta property="og:type" content="article">
 		<meta property="article:section" content="docs">
-		<meta property="article:modified_time" content="2025-11-03T23:42:31+09:00">
+		<meta property="article:modified_time" content="2026-08-30T15:40:22+09:00">
 		<meta property="og:image" content="https://karabiner-elements.pqrs.org/images/logo.png">
 <meta itemprop="name" content="Confirm the result of configuration (EventViewer)">
 <meta itemprop="description" content="Karabiner-Elements provides a built-in event viewer named Karabiner-EventViewer. You can show keyboard and mouse events by using it.
 Open Karabiner-EventViewer from Apps or Finder. Input events will be shown when you type keyboard. How to check the device’s original events EventViewer shows events after Karabiner-Elements has modified them. However, when you configure Karabiner-Elements to change an event, you must specify the original event that the device sends. This is why trying to modify the event shown in EventViewer sometimes does not work.">
 
-<meta itemprop="dateModified" content="2025-11-03T23:42:31&#43;09:00">
-<meta itemprop="wordCount" content="167">
+<meta itemprop="dateModified" content="2026-08-30T15:40:22&#43;09:00">
+<meta itemprop="wordCount" content="176">
 <meta itemprop="image" content="https://karabiner-elements.pqrs.org/images/logo.png">
 
 	<meta name="twitter:card" content="summary_large_image">
@@ -34,8 +34,8 @@ Open Karabiner-EventViewer from Apps or Finder. Input events will be shown when 
 	<meta name="twitter:title" content="Confirm the result of configuration (EventViewer)">
 	<meta name="twitter:description" content="Karabiner-Elements provides a built-in event viewer named Karabiner-EventViewer. You can show keyboard and mouse events by using it.
 Open Karabiner-EventViewer from Apps or Finder. Input events will be shown when you type keyboard. How to check the device’s original events EventViewer shows events after Karabiner-Elements has modified them. However, when you configure Karabiner-Elements to change an event, you must specify the original event that the device sends. This is why trying to modify the event shown in EventViewer sometimes does not work.">
-<link rel="preload" href="/scss/main.min.1562967d45eeb763c90305f3dcea345f154bf8d7e5f1487a0008217a4c24e195.css" as="style" integrity="sha256-FWKWfUXut2PJAwXz3Oo0XxVL&#43;Nfl8Uh6AAghekwk4ZU=" crossorigin="anonymous">
-<link href="/scss/main.min.1562967d45eeb763c90305f3dcea345f154bf8d7e5f1487a0008217a4c24e195.css" rel="stylesheet" integrity="sha256-FWKWfUXut2PJAwXz3Oo0XxVL&#43;Nfl8Uh6AAghekwk4ZU=" crossorigin="anonymous">
+<link rel="preload" href="/scss/main.min.b827c054aa17d37940c43b6c7832a439485857c1d00de70b0af8ff46486eeb80.css" as="style" integrity="sha256-uCfAVKoX03lAxDtseDKkOUhYV8HQDecLCvj/Rkhu64A=" crossorigin="anonymous">
+<link href="/scss/main.min.b827c054aa17d37940c43b6c7832a439485857c1d00de70b0af8ff46486eeb80.css" rel="stylesheet" integrity="sha256-uCfAVKoX03lAxDtseDKkOUhYV8HQDecLCvj/Rkhu64A=" crossorigin="anonymous">
 <script
   src="https://code.jquery.com/jquery-3.7.1.min.js"
   integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
@@ -71,7 +71,7 @@ Open Karabiner-EventViewer from Apps or Finder. Input events will be shown when 
     aria-label='Search this site…'
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.d8a3c2a4885f15556065bbc17b32c981.json"
+    data-offline-search-index-json-src="/offline-search-index.97f6c4ca56854667c044b3deb093bc8c.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="25"
   >
@@ -96,7 +96,7 @@ Open Karabiner-EventViewer from Apps or Finder. Input events will be shown when 
     aria-label='Search this site…'
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.d8a3c2a4885f15556065bbc17b32c981.json"
+    data-offline-search-index-json-src="/offline-search-index.97f6c4ca56854667c044b3deb093bc8c.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="25"
   >
@@ -719,7 +719,7 @@ You can show keyboard and mouse events by using it.</p>
       <img
         src="/docs/manual/operation/eventviewer/images/karabiner-elements-eventviewer@2x.png"
         alt="karabiner-elements-eventviewer@2x.png"
-        style="width: 1100px"
+        style="width: 1300px"
       />
     </figure>
 </li>
@@ -734,20 +734,19 @@ but because Karabiner-Elements converts it into a brightness adjustment,
 EventViewer displays <code>{&quot;consumer_key_code&quot;:&quot;display_brightness_decrement&quot;}</code>.
 (When you actually change the key in Karabiner-Elements, you need to specify <code>f1</code>.)</p>
 <p>EventViewer also provides a way to show the original events.
-If you enable the &ldquo;Temporarily turns off all Karabiner-Elements modifications&rdquo; toggle,
-Karabiner-Element&rsquo;s modifications are temporarily disabled,
-so pressing a key in that state lets you check the device&rsquo;s original event.</p>
+Select Capture Raw Input Events in the sidebar, then select the device you want to inspect, and then press the Start capture button.
+Karabiner-Elements modifications will be temporarily disabled for that device, allowing you to view its original events.</p>
 <figure>
   <img
     src="/docs/manual/operation/eventviewer/images/original-events@2x.png"
     alt="original-events@2x.png"
-    style="width: 1100px"
+    style="width: 1300px"
   />
 </figure>
 
 
 	<div class="td-page-meta__lastmod">
-    Last modified: 2025-11-03
+    Last modified: 2026-08-30
       <a href="https://github.com/pqrs-org/pqrs.org/blob/main/sites/karabiner-elements/content/en/docs/manual/operation/eventviewer/index.md?plain=1" target="_blank" rel="noopener">
         <i class="fab fa-github ms-1"></i>
         Markdown
