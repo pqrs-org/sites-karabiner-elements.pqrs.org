@@ -21,14 +21,14 @@ Process list Running with root privileges:">
 	<meta property="og:locale" content="en">
 	<meta property="og:type" content="article">
 		<meta property="article:section" content="docs">
-		<meta property="article:modified_time" content="2026-07-08T07:31:27+09:00">
+		<meta property="article:modified_time" content="2026-08-30T18:34:23+09:00">
 		<meta property="og:image" content="https://karabiner-elements.pqrs.org/images/logo.png">
 <meta itemprop="name" content="Security">
 <meta itemprop="description" content="Security is one of the most important aspects of the Karabiner-Elements architecture. Karabiner-Elements separates responsibilities across multiple processes and runs each process with appropriate privileges to reduce the risk of input event leakage.
 Processes Karabiner-Elements restricts input event handling to the Karabiner-Core-Service daemon and Karabiner-VirtualHIDDevice-Daemon processes. These processes run with root privileges, so other processes, including malicious applications, cannot steal input events through Karabiner-Elements.
 Process list Running with root privileges:">
 
-<meta itemprop="dateModified" content="2026-07-08T07:31:27&#43;09:00">
+<meta itemprop="dateModified" content="2026-08-30T18:34:23&#43;09:00">
 <meta itemprop="wordCount" content="342">
 <meta itemprop="image" content="https://karabiner-elements.pqrs.org/images/logo.png">
 
@@ -75,7 +75,7 @@ Process list Running with root privileges:">
     aria-label='Search this site…'
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.43e48a0b7f49e93d78917847f7415695.json"
+    data-offline-search-index-json-src="/offline-search-index.6e05c66a748d34ccb37b1715fa62ba63.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="25"
   >
@@ -100,7 +100,7 @@ Process list Running with root privileges:">
     aria-label='Search this site…'
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.43e48a0b7f49e93d78917847f7415695.json"
+    data-offline-search-index-json-src="/offline-search-index.6e05c66a748d34ccb37b1715fa62ba63.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="25"
   >
@@ -740,7 +740,7 @@ Other applications cannot arbitrarily add or remove virtual devices or send even
 </ul>
 <p>Running with logged-in user privileges:</p>
 <ul>
-<li><strong>karabiner_console_user_server</strong>
+<li><strong>Karabiner-Console-User-Server</strong>
 <ul>
 <li>It instructs the Karabiner-Core-Service daemon to start grabbing devices.</li>
 <li>It also executes shell commands and sends user commands triggered by the Karabiner-Core-Service daemon.</li>
@@ -754,7 +754,7 @@ so these permission requests are handled by the Karabiner-Core-Service agent.</l
 Therefore, the Karabiner-Core-Service agent monitors changes to the focused application and UI element,
 and notifies the Karabiner-Core-Service daemon.</li>
 <li><strong>Note:</strong> Since the Karabiner-Core-Service agent is granted powerful permissions such as Accessibility, its role is intentionally limited.
-Responsibilities such as executing user shell commands are handled by <code>karabiner_console_user_server</code> to keep privileges clearly separated.</li>
+Responsibilities such as executing user shell commands are handled by <code>Karabiner-Console-User-Server</code> to keep privileges clearly separated.</li>
 </ul>
 </li>
 </ul>
@@ -765,7 +765,7 @@ Anyone can create binaries identical to the distributed releases by setting up A
 <p><a href="https://github.com/pqrs-org/Karabiner-Elements/">https://github.com/pqrs-org/Karabiner-Elements/</a></p>
 
 	<div class="td-page-meta__lastmod">
-    Last modified: 2026-07-08
+    Last modified: 2026-08-30
       <a href="https://github.com/pqrs-org/pqrs.org/blob/main/sites/karabiner-elements/content/en/docs/help/advanced-topics/security/index.md?plain=1" target="_blank" rel="noopener">
         <i class="fab fa-github ms-1"></i>
         Markdown
