@@ -10,30 +10,30 @@
 
 <title>Set keyboard type | Karabiner-Elements</title>
 <meta name="description" content="You can change the keyboard type (ANSI, ISO, JIS) from Virtual Keyboard tab.
-Related articles Troubleshooting &gt; Input symbols are different from the key code name on non-ANSI keyboards">
+About ISO layout specific keys When using an ISO layout, the characters produced by ISO-specific keys (such as § and ±) may not match the symbols printed on the physical keyboard. This can occur because macOS swaps these keys under certain conditions in a way that does not align with how the Karabiner-Elements virtual keyboard handles them. If this occurs, enable Swap ISO layout-specific keys under Devices.">
 <meta property="og:url" content="/docs/manual/configuration/configure-keyboard-type/">
 	<meta property="og:site_name" content="Karabiner-Elements">
 	<meta property="og:title" content="Set keyboard type">
 	<meta property="og:description" content="You can change the keyboard type (ANSI, ISO, JIS) from Virtual Keyboard tab.
-Related articles Troubleshooting &gt; Input symbols are different from the key code name on non-ANSI keyboards">
+About ISO layout specific keys When using an ISO layout, the characters produced by ISO-specific keys (such as § and ±) may not match the symbols printed on the physical keyboard. This can occur because macOS swaps these keys under certain conditions in a way that does not align with how the Karabiner-Elements virtual keyboard handles them. If this occurs, enable Swap ISO layout-specific keys under Devices.">
 	<meta property="og:locale" content="en">
 	<meta property="og:type" content="article">
 		<meta property="article:section" content="docs">
-		<meta property="article:modified_time" content="2026-01-21T08:29:09+09:00">
+		<meta property="article:modified_time" content="2026-08-30T20:03:28+09:00">
 		<meta property="og:image" content="https://karabiner-elements.pqrs.org/images/logo.png">
 <meta itemprop="name" content="Set keyboard type">
 <meta itemprop="description" content="You can change the keyboard type (ANSI, ISO, JIS) from Virtual Keyboard tab.
-Related articles Troubleshooting &gt; Input symbols are different from the key code name on non-ANSI keyboards">
+About ISO layout specific keys When using an ISO layout, the characters produced by ISO-specific keys (such as § and ±) may not match the symbols printed on the physical keyboard. This can occur because macOS swaps these keys under certain conditions in a way that does not align with how the Karabiner-Elements virtual keyboard handles them. If this occurs, enable Swap ISO layout-specific keys under Devices.">
 
-<meta itemprop="dateModified" content="2026-01-21T08:29:09&#43;09:00">
-<meta itemprop="wordCount" content="29">
+<meta itemprop="dateModified" content="2026-08-30T20:03:28&#43;09:00">
+<meta itemprop="wordCount" content="96">
 <meta itemprop="image" content="https://karabiner-elements.pqrs.org/images/logo.png">
 
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:image" content="https://karabiner-elements.pqrs.org/images/logo.png">
 	<meta name="twitter:title" content="Set keyboard type">
 	<meta name="twitter:description" content="You can change the keyboard type (ANSI, ISO, JIS) from Virtual Keyboard tab.
-Related articles Troubleshooting &gt; Input symbols are different from the key code name on non-ANSI keyboards">
+About ISO layout specific keys When using an ISO layout, the characters produced by ISO-specific keys (such as § and ±) may not match the symbols printed on the physical keyboard. This can occur because macOS swaps these keys under certain conditions in a way that does not align with how the Karabiner-Elements virtual keyboard handles them. If this occurs, enable Swap ISO layout-specific keys under Devices.">
 <link rel="preload" href="/scss/main.min.b827c054aa17d37940c43b6c7832a439485857c1d00de70b0af8ff46486eeb80.css" as="style" integrity="sha256-uCfAVKoX03lAxDtseDKkOUhYV8HQDecLCvj/Rkhu64A=" crossorigin="anonymous">
 <link href="/scss/main.min.b827c054aa17d37940c43b6c7832a439485857c1d00de70b0af8ff46486eeb80.css" rel="stylesheet" integrity="sha256-uCfAVKoX03lAxDtseDKkOUhYV8HQDecLCvj/Rkhu64A=" crossorigin="anonymous">
 <script
@@ -71,7 +71,7 @@ Related articles Troubleshooting &gt; Input symbols are different from the key c
     aria-label='Search this site…'
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.6e05c66a748d34ccb37b1715fa62ba63.json"
+    data-offline-search-index-json-src="/offline-search-index.f7694704a48d2a006bcd809b8a9787e1.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="25"
   >
@@ -96,7 +96,7 @@ Related articles Troubleshooting &gt; Input symbols are different from the key c
     aria-label='Search this site…'
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.6e05c66a748d34ccb37b1715fa62ba63.json"
+    data-offline-search-index-json-src="/offline-search-index.f7694704a48d2a006bcd809b8a9787e1.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="25"
   >
@@ -670,6 +670,7 @@ Related articles Troubleshooting &gt; Input symbols are different from the key c
     </div>
     <nav id="TableOfContents">
   <ul>
+    <li><a href="#about-iso-layout-specific-keys">About ISO layout specific keys</a></li>
     <li><a href="#related-articles">Related articles</a></li>
   </ul>
 </nav>
@@ -707,13 +708,24 @@ Related articles Troubleshooting &gt; Input symbols are different from the key c
   />
 </figure>
 
+<h2 id="about-iso-layout-specific-keys">About ISO layout specific keys</h2>
+<p>When using an ISO layout, the characters produced by ISO-specific keys (such as <code>§</code> and <code>±</code>) may not match the symbols printed on the physical keyboard. This can occur because macOS swaps these keys under certain conditions in a way that does not align with how the Karabiner-Elements virtual keyboard handles them.
+If this occurs, enable Swap ISO layout-specific keys under Devices.</p>
+<figure>
+  <img
+    src="/docs/manual/configuration/configure-keyboard-type/images/swap-iso-layout-specific-keys@2x.png"
+    alt="swap-iso-layout-specific-keys@2x.png"
+    style="width: 1155px"
+  />
+</figure>
+
 <h2 id="related-articles">Related articles</h2>
 <ul>
 <li><a href="/docs/help/troubleshooting/symbols-with-non-ansi-keyboard/">Troubleshooting &gt; Input symbols are different from the key code name on non-ANSI keyboards</a></li>
 </ul>
 
 	<div class="td-page-meta__lastmod">
-    Last modified: 2026-01-21
+    Last modified: 2026-08-30
       <a href="https://github.com/pqrs-org/pqrs.org/blob/main/sites/karabiner-elements/content/en/docs/manual/configuration/configure-keyboard-type/index.md?plain=1" target="_blank" rel="noopener">
         <i class="fab fa-github ms-1"></i>
         Markdown
