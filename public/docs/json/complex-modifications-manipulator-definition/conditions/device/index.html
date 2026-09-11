@@ -9,36 +9,18 @@
 <link rel="apple-touch-icon" href="/favicons/apple-touch-icon-180x180.png" sizes="180x180">
 
 <title>device_if, device_unless, device_exists_if, device_exists_unless | Karabiner-Elements</title>
-<meta name="description" content="Change an event if/unless the event is from specified device.
-Example Change caps_lock to escape on Apple keyboards, wiht the vendor ID is 1452 (0x05ac) or 76 (0x004c) or if it’s a built-in keyboard.
-💡 How to use this example { &#34;description&#34;: &#34;Change caps_lock to escape on Apple keyboards&#34;, &#34;manipulators&#34;: [ { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;caps_lock&#34;, &#34;modifiers&#34;: { &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;key_code&#34;: &#34;escape&#34; }], &#34;conditions&#34;: [ { &#34;type&#34;: &#34;device_if&#34;, &#34;identifiers&#34;: [ { &#34;vendor_id&#34;: 1452 }, { &#34;vendor_id&#34;: 76 }, { &#34;is_built_in_keyboard&#34;: true } ] } ] } ] } Specification { &#34;type&#34;: &#34;device_if&#34;, &#34;identifiers&#34;: [ { &#34;vendor_id&#34;: 1111, &#34;product_id&#34;: 2222, &#34;description&#34;: &#34;my keyboard 1&#34; }, { &#34;vendor_id&#34;: 3333, &#34;product_id&#34;: 4444, &#34;description&#34;: &#34;my keyboard 2&#34; }, ... ] } NameRequiredDescription type Required &#34;device_if&#34; or &#34;device_unless&#34; or &#34;device_exists_if&#34; or &#34;device_exists_unless&#34; identifiers Required Target device definitions description Optional A human-readable comment type TypeDescription device_if Valid only for devices specified in identifiers
-(Available since Karabiner-Elements 11.0.0) device_unless Valid only for devices other than specified in identifiers
-(Available since Karabiner-Elements 11.0.0) device_exists_if Valid if a specified device is connected
-(Available since Karabiner-Elements 14.8.4) device_exists_unless Valid unless a specified device is connected
-(Available since Karabiner-Elements 14.8.4) identifiers identifiers is an array of objects.">
+<meta name="description" content="Change an event if/unless the event is from specified device. Example Change caps_lock to escape on Apple keyboards, wiht the vendor ID is 1452 (0x05ac) or 76…">
 <meta property="og:url" content="/docs/json/complex-modifications-manipulator-definition/conditions/device/">
 	<meta property="og:site_name" content="Karabiner-Elements">
 	<meta property="og:title" content="device_if, device_unless, device_exists_if, device_exists_unless">
-	<meta property="og:description" content="Change an event if/unless the event is from specified device.
-Example Change caps_lock to escape on Apple keyboards, wiht the vendor ID is 1452 (0x05ac) or 76 (0x004c) or if it’s a built-in keyboard.
-💡 How to use this example { &#34;description&#34;: &#34;Change caps_lock to escape on Apple keyboards&#34;, &#34;manipulators&#34;: [ { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;caps_lock&#34;, &#34;modifiers&#34;: { &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;key_code&#34;: &#34;escape&#34; }], &#34;conditions&#34;: [ { &#34;type&#34;: &#34;device_if&#34;, &#34;identifiers&#34;: [ { &#34;vendor_id&#34;: 1452 }, { &#34;vendor_id&#34;: 76 }, { &#34;is_built_in_keyboard&#34;: true } ] } ] } ] } Specification { &#34;type&#34;: &#34;device_if&#34;, &#34;identifiers&#34;: [ { &#34;vendor_id&#34;: 1111, &#34;product_id&#34;: 2222, &#34;description&#34;: &#34;my keyboard 1&#34; }, { &#34;vendor_id&#34;: 3333, &#34;product_id&#34;: 4444, &#34;description&#34;: &#34;my keyboard 2&#34; }, ... ] } NameRequiredDescription type Required &#34;device_if&#34; or &#34;device_unless&#34; or &#34;device_exists_if&#34; or &#34;device_exists_unless&#34; identifiers Required Target device definitions description Optional A human-readable comment type TypeDescription device_if Valid only for devices specified in identifiers
-(Available since Karabiner-Elements 11.0.0) device_unless Valid only for devices other than specified in identifiers
-(Available since Karabiner-Elements 11.0.0) device_exists_if Valid if a specified device is connected
-(Available since Karabiner-Elements 14.8.4) device_exists_unless Valid unless a specified device is connected
-(Available since Karabiner-Elements 14.8.4) identifiers identifiers is an array of objects.">
+	<meta property="og:description" content="Change an event if/unless the event is from specified device. Example Change caps_lock to escape on Apple keyboards, wiht the vendor ID is 1452 (0x05ac) or 76…">
 	<meta property="og:locale" content="en">
 	<meta property="og:type" content="article">
 		<meta property="article:section" content="docs">
 		<meta property="article:modified_time" content="2026-08-12T22:39:21+09:00">
 		<meta property="og:image" content="https://karabiner-elements.pqrs.org/images/logo.png">
 <meta itemprop="name" content="device_if, device_unless, device_exists_if, device_exists_unless">
-<meta itemprop="description" content="Change an event if/unless the event is from specified device.
-Example Change caps_lock to escape on Apple keyboards, wiht the vendor ID is 1452 (0x05ac) or 76 (0x004c) or if it’s a built-in keyboard.
-💡 How to use this example { &#34;description&#34;: &#34;Change caps_lock to escape on Apple keyboards&#34;, &#34;manipulators&#34;: [ { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;caps_lock&#34;, &#34;modifiers&#34;: { &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;key_code&#34;: &#34;escape&#34; }], &#34;conditions&#34;: [ { &#34;type&#34;: &#34;device_if&#34;, &#34;identifiers&#34;: [ { &#34;vendor_id&#34;: 1452 }, { &#34;vendor_id&#34;: 76 }, { &#34;is_built_in_keyboard&#34;: true } ] } ] } ] } Specification { &#34;type&#34;: &#34;device_if&#34;, &#34;identifiers&#34;: [ { &#34;vendor_id&#34;: 1111, &#34;product_id&#34;: 2222, &#34;description&#34;: &#34;my keyboard 1&#34; }, { &#34;vendor_id&#34;: 3333, &#34;product_id&#34;: 4444, &#34;description&#34;: &#34;my keyboard 2&#34; }, ... ] } NameRequiredDescription type Required &#34;device_if&#34; or &#34;device_unless&#34; or &#34;device_exists_if&#34; or &#34;device_exists_unless&#34; identifiers Required Target device definitions description Optional A human-readable comment type TypeDescription device_if Valid only for devices specified in identifiers
-(Available since Karabiner-Elements 11.0.0) device_unless Valid only for devices other than specified in identifiers
-(Available since Karabiner-Elements 11.0.0) device_exists_if Valid if a specified device is connected
-(Available since Karabiner-Elements 14.8.4) device_exists_unless Valid unless a specified device is connected
-(Available since Karabiner-Elements 14.8.4) identifiers identifiers is an array of objects.">
+<meta itemprop="description" content="Change an event if/unless the event is from specified device. Example Change caps_lock to escape on Apple keyboards, wiht the vendor ID is 1452 (0x05ac) or 76…">
 
 <meta itemprop="dateModified" content="2026-08-12T22:39:21&#43;09:00">
 <meta itemprop="wordCount" content="422">
@@ -47,13 +29,7 @@ Example Change caps_lock to escape on Apple keyboards, wiht the vendor ID is 145
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:image" content="https://karabiner-elements.pqrs.org/images/logo.png">
 	<meta name="twitter:title" content="device_if, device_unless, device_exists_if, device_exists_unless">
-	<meta name="twitter:description" content="Change an event if/unless the event is from specified device.
-Example Change caps_lock to escape on Apple keyboards, wiht the vendor ID is 1452 (0x05ac) or 76 (0x004c) or if it’s a built-in keyboard.
-💡 How to use this example { &#34;description&#34;: &#34;Change caps_lock to escape on Apple keyboards&#34;, &#34;manipulators&#34;: [ { &#34;type&#34;: &#34;basic&#34;, &#34;from&#34;: { &#34;key_code&#34;: &#34;caps_lock&#34;, &#34;modifiers&#34;: { &#34;optional&#34;: [&#34;any&#34;] } }, &#34;to&#34;: [{ &#34;key_code&#34;: &#34;escape&#34; }], &#34;conditions&#34;: [ { &#34;type&#34;: &#34;device_if&#34;, &#34;identifiers&#34;: [ { &#34;vendor_id&#34;: 1452 }, { &#34;vendor_id&#34;: 76 }, { &#34;is_built_in_keyboard&#34;: true } ] } ] } ] } Specification { &#34;type&#34;: &#34;device_if&#34;, &#34;identifiers&#34;: [ { &#34;vendor_id&#34;: 1111, &#34;product_id&#34;: 2222, &#34;description&#34;: &#34;my keyboard 1&#34; }, { &#34;vendor_id&#34;: 3333, &#34;product_id&#34;: 4444, &#34;description&#34;: &#34;my keyboard 2&#34; }, ... ] } NameRequiredDescription type Required &#34;device_if&#34; or &#34;device_unless&#34; or &#34;device_exists_if&#34; or &#34;device_exists_unless&#34; identifiers Required Target device definitions description Optional A human-readable comment type TypeDescription device_if Valid only for devices specified in identifiers
-(Available since Karabiner-Elements 11.0.0) device_unless Valid only for devices other than specified in identifiers
-(Available since Karabiner-Elements 11.0.0) device_exists_if Valid if a specified device is connected
-(Available since Karabiner-Elements 14.8.4) device_exists_unless Valid unless a specified device is connected
-(Available since Karabiner-Elements 14.8.4) identifiers identifiers is an array of objects.">
+	<meta name="twitter:description" content="Change an event if/unless the event is from specified device. Example Change caps_lock to escape on Apple keyboards, wiht the vendor ID is 1452 (0x05ac) or 76…">
 <link rel="preload" href="/scss/main.min.f4e1979645b858c8a5a6e7eefcabb0bb92208477924295f8992f66d5befdb0ec.css" as="style" integrity="sha256-9OGXlkW4WMilpufu/Kuwu5IghHeSQpX4mS9m1b79sOw=" crossorigin="anonymous">
 <link href="/scss/main.min.f4e1979645b858c8a5a6e7eefcabb0bb92208477924295f8992f66d5befdb0ec.css" rel="stylesheet" integrity="sha256-9OGXlkW4WMilpufu/Kuwu5IghHeSQpX4mS9m1b79sOw=" crossorigin="anonymous">
 <script
