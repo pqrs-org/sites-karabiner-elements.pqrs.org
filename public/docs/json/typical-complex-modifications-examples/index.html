@@ -17,13 +17,13 @@
 	<meta property="og:locale" content="en">
 	<meta property="og:type" content="article">
 		<meta property="article:section" content="docs">
-		<meta property="article:modified_time" content="2026-05-03T14:49:27+09:00">
+		<meta property="article:modified_time" content="2026-09-23T23:50:14+09:00">
 		<meta property="og:image" content="https://karabiner-elements.pqrs.org/images/logo.png">
 <meta itemprop="name" content="Typical complex_modifications examples">
 <meta itemprop="description" content="Swap ; and : Equal to swap ; and shift-;: from.modifiers 💡 How to use this example { &amp;#34;description&amp;#34;: &amp;#34;Swap ; and :&amp;#34;, &amp;#34;manipulators&amp;#34;: [ {…">
 
-<meta itemprop="dateModified" content="2026-05-03T14:49:27&#43;09:00">
-<meta itemprop="wordCount" content="1690">
+<meta itemprop="dateModified" content="2026-09-23T23:50:14&#43;09:00">
+<meta itemprop="wordCount" content="1798">
 <meta itemprop="image" content="https://karabiner-elements.pqrs.org/images/logo.png">
 
 	<meta name="twitter:card" content="summary_large_image">
@@ -67,7 +67,7 @@
     aria-label='Search this site…'
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.b84d57284ba1164882ca0e190b1c4053.json"
+    data-offline-search-index-json-src="/offline-search-index.41ea2e602b2d16d9f0d06cbfc4ab89bd.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="25"
   >
@@ -92,7 +92,7 @@
     aria-label='Search this site…'
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.b84d57284ba1164882ca0e190b1c4053.json"
+    data-offline-search-index-json-src="/offline-search-index.41ea2e602b2d16d9f0d06cbfc4ab89bd.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="25"
   >
@@ -673,6 +673,7 @@
     <li><a href="#swap--and-">Swap <code>;</code> and <code>:</code></a></li>
     <li><a href="#change-control-h-to-delete">Change <code>control-h</code> to <code>delete</code></a></li>
     <li><a href="#change-mouse-button4-and-button5-to-back-and-forward">Change mouse button4 and button5 to back and forward</a></li>
+    <li><a href="#change-mouse-wheel-tilt-to-back-and-forward">Change mouse wheel tilt to back and forward</a></li>
     <li><a href="#change-caps_lock-to-escape-on-the-built-in-keyboard">Change <code>caps_lock</code> to <code>escape</code> on the built-in keyboard</a></li>
     <li><a href="#change-left_command3---2-left_shift3----on-the-built-in-keyboard">Change left_command+3 -&gt; 2, left_shift+3 -&gt; @ on the built-in keyboard</a></li>
     <li><a href="#open-files-in-finder-using-the-return-key">Open files in Finder using the return key</a></li>
@@ -794,8 +795,10 @@
 </span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">]</span>
 </span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
 </span></span></code></pre></div><h2 id="change-mouse-button4-and-button5-to-back-and-forward">Change mouse button4 and button5 to back and forward</h2>
-<p>Change mouse button 4 and button 5 to <kbd>[ + left_arrow</kbd> and <kbd>] + right_arrow</kbd>.</p>
+<p>Change mouse button 4 and button 5 to <kbd>left_command + [</kbd> and <kbd>left_command + ]</kbd>.</p>
+<div class="alert alert-info" role="alert"><div class="h4 alert-heading" role="heading">Enable your mouse</div>
 <p><a href="/docs/manual/configuration/configure-devices/">To use this configuration, you need to enable your mouse in the Devices tab</a>.</p>
+</div>
 <div class="highlight" style="margin-top: 0rem; margin-bottom: -2rem">
   <a
     class="d-inline-block"
@@ -845,7 +848,51 @@
 </ul>
 <p>See <a href="/docs/help/troubleshooting/symbols-with-non-ansi-keyboard/">key code mappings</a>.</p>
 </div>
-<h2 id="change-caps_lock-to-escape-on-the-built-in-keyboard">Change <code>caps_lock</code> to <code>escape</code> on the built-in keyboard</h2>
+<h2 id="change-mouse-wheel-tilt-to-back-and-forward">Change mouse wheel tilt to back and forward</h2>
+<p>This example is available since Karabiner-Elements 16.3.9.</p>
+<p>Change mouse wheel tilt to <kbd>left_commmad + left_arrow</kbd> and <kbd>left_commmad + right_arrow</kbd>.</p>
+<div class="alert alert-info" role="alert"><div class="h4 alert-heading" role="heading">Enable your mouse</div>
+<p><a href="/docs/manual/configuration/configure-devices/">To use this configuration, you need to enable your mouse in the Devices tab</a>.</p>
+</div>
+<div class="highlight" style="margin-top: 0rem; margin-bottom: -2rem">
+  <a
+    class="d-inline-block"
+    style="
+      text-decoration: none;
+      background-color: #f8f8f8;
+      padding: 0.5rem;
+      border: solid var(--bs-border-color);
+      border-width: 1px 1px 0 1px;
+    "
+    href="/docs/manual/configuration/add-your-own-complex-modifications/"
+    >💡 How to use this example</a
+  >
+</div>
+
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#204a87;font-weight:bold">&#34;description&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;Change wheel tilt to command + arrow keys&#34;</span><span style="color:#000;font-weight:bold">,</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#204a87;font-weight:bold">&#34;manipulators&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">[</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#204a87;font-weight:bold">&#34;type&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;mouse_motion_and_wheel_to_key&#34;</span><span style="color:#000;font-weight:bold">,</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#204a87;font-weight:bold">&#34;from&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#204a87;font-weight:bold">&#34;source&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;horizontal_wheel&#34;</span><span style="color:#000;font-weight:bold">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#204a87;font-weight:bold">&#34;threshold&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000;font-weight:bold">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#204a87;font-weight:bold">&#34;sampling_interval_milliseconds&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#0000cf;font-weight:bold">100</span><span style="color:#000;font-weight:bold">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#204a87;font-weight:bold">&#34;cooldown_milliseconds&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#0000cf;font-weight:bold">100</span><span style="color:#000;font-weight:bold">,</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#204a87;font-weight:bold">&#34;modifiers&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">{</span> <span style="color:#204a87;font-weight:bold">&#34;optional&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#4e9a06">&#34;any&#34;</span><span style="color:#000;font-weight:bold">]</span> <span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">},</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#204a87;font-weight:bold">&#34;to&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">{</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#204a87;font-weight:bold">&#34;left&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">[</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#000;font-weight:bold">{</span> <span style="color:#204a87;font-weight:bold">&#34;key_code&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;left_arrow&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#204a87;font-weight:bold">&#34;modifiers&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#4e9a06">&#34;left_command&#34;</span><span style="color:#000;font-weight:bold">]</span> <span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">],</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#204a87;font-weight:bold">&#34;right&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">[</span>
+</span></span><span style="display:flex;"><span>                    <span style="color:#000;font-weight:bold">{</span> <span style="color:#204a87;font-weight:bold">&#34;key_code&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;right_arrow&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#204a87;font-weight:bold">&#34;modifiers&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">[</span><span style="color:#4e9a06">&#34;left_command&#34;</span><span style="color:#000;font-weight:bold">]</span> <span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#000;font-weight:bold">]</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#000;font-weight:bold">]</span>
+</span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
+</span></span></code></pre></div><h2 id="change-caps_lock-to-escape-on-the-built-in-keyboard">Change <code>caps_lock</code> to <code>escape</code> on the built-in keyboard</h2>
 <ul>
 <li>An example of using modifiers.optional == [&ldquo;any&rdquo;]: <a href="/docs/json/complex-modifications-manipulator-definition/from/modifiers/">from.modifiers</a></li>
 <li>Device-specific rule: <a href="/docs/json/complex-modifications-manipulator-definition/conditions/device/">device_if, device_unless, device_exists_if, device_exists_unless</a></li>
@@ -1616,7 +1663,7 @@ Therefore, you need to enable Unicode Hex Input in <a href="https://support.appl
 </span></span><span style="display:flex;"><span><span style="color:#000;font-weight:bold">}</span>
 </span></span></code></pre></div>
 	<div class="td-page-meta__lastmod">
-    Last modified: 2026-05-03
+    Last modified: 2026-09-23
       <a href="https://github.com/pqrs-org/pqrs.org/blob/main/sites/karabiner-elements/content/en/docs/json/typical-complex-modifications-examples/index.md?plain=1" target="_blank" rel="noopener">
         <i class="fab fa-github ms-1"></i>
         Markdown
