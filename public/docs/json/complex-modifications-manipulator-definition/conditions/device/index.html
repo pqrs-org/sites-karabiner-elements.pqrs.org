@@ -17,13 +17,13 @@
 	<meta property="og:locale" content="en">
 	<meta property="og:type" content="article">
 		<meta property="article:section" content="docs">
-		<meta property="article:modified_time" content="2026-08-12T22:39:21+09:00">
+		<meta property="article:modified_time" content="2026-11-13T23:41:30+09:00">
 		<meta property="og:image" content="https://karabiner-elements.pqrs.org/images/logo.png">
 <meta itemprop="name" content="device_if, device_unless, device_exists_if, device_exists_unless">
 <meta itemprop="description" content="Change an event if/unless the event is from specified device. Example Change caps_lock to escape on Apple keyboards, wiht the vendor ID is 1452 (0x05ac) or 76…">
 
-<meta itemprop="dateModified" content="2026-08-12T22:39:21&#43;09:00">
-<meta itemprop="wordCount" content="428">
+<meta itemprop="dateModified" content="2026-11-13T23:41:30&#43;09:00">
+<meta itemprop="wordCount" content="456">
 <meta itemprop="image" content="https://karabiner-elements.pqrs.org/images/logo.png">
 
 	<meta name="twitter:card" content="summary_large_image">
@@ -63,7 +63,7 @@
     aria-label='Search this site…'
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.59042cac2fca1a66d6adeeec9fc4b115.json"
+    data-offline-search-index-json-src="/offline-search-index.bf23148812d46378af9cbf2ae6f02df1.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="25"
   >
@@ -88,7 +88,7 @@
     aria-label='Search this site…'
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.59042cac2fca1a66d6adeeec9fc4b115.json"
+    data-offline-search-index-json-src="/offline-search-index.bf23148812d46378af9cbf2ae6f02df1.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="25"
   >
@@ -834,6 +834,16 @@
           <td>Location ID of device</td>
           <td>No <code>[2]</code></td>
       </tr>
+      <tr><td><code>serial_number</code></td>
+          <td>Optional</td>
+          <td>Serial number of device<br /><span class="text-body-secondary">(Available since Karabiner-Elements 16.99.20)</span></td>
+          <td>Yes <code>[1]</code></td>
+      </tr>
+      <tr><td><code>transport</code></td>
+          <td>Optional</td>
+          <td>Transport type of device (e.g., <code>USB</code>, <code>Bluetooth</code>)<br /><span class="text-body-secondary">(Available since Karabiner-Elements 16.99.20)</span></td>
+          <td>Yes</td>
+      </tr>
       <tr><td><code>is_keyboard</code></td>
           <td>Optional</td>
           <td><code>true</code> or <code>false</code></td>
@@ -868,7 +878,7 @@
 </table>
 
 <ul>
-<li><code>[1]</code> The <code>device_address</code> will change when you replace the hardware.</li>
+<li><code>[1]</code> The <code>device_address</code> and <code>serial_number</code> will change when you replace the hardware.</li>
 <li><code>[2]</code> The <code>location_id</code> will change when you change the USB port which the device is connected.</li>
 </ul>
 <h4 id="multiple-identifiers">Multiple identifiers</h4>
@@ -911,7 +921,7 @@
 
 
 	<div class="td-page-meta__lastmod">
-    Last modified: 2026-08-12
+    Last modified: 2026-11-13
       <a href="https://github.com/pqrs-org/pqrs.org/blob/main/sites/karabiner-elements/content/en/docs/json/complex-modifications-manipulator-definition/conditions/device/index.md?plain=1" target="_blank" rel="noopener">
         <i class="fab fa-github ms-1"></i>
         Markdown
